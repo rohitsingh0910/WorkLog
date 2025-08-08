@@ -1,0 +1,501 @@
+project_type,problem_complexity,team_size,expected_duration_months,tech_stack,features_count,external_integrations,ui_ux_complexity,data_handling_required,analytics_required,security_compliance,stakeholders_count,requires_mobile_app,requires_web_portal,existing_system_in_place,geographic_scope,deployment_model,project_priority,risk_factors_count,target_users_count,sprint_count,average_hourly_rate,infrastructure_required,client_industry,third_party_license_cost,project_location,poc_done,hosting_provider,hosting_monthly_cost,hosting_duration_months,team_composition,project_cost_estimate
+Travel,Low,13,2,PHP + Laravel,7,All,Moderate,True,True,None,4,True,True,True,Global,Hybrid,High,4,55037,3,300,Basic,Logistics,5000,Tier 2,True,Azure,3000,2,junior-heavy,171513
+FinTech,Low,14,7,MERN,17,None,Moderate,False,False,None,8,True,False,True,Global,On-prem,High,4,47450,6,600,None,Finance,5000,Tier 1,True,DigitalOcean,3000,7,balanced,1235311
+FinTech,Low,4,3,Java + Spring Boot,16,Payment,Advanced,False,True,Advanced,3,True,True,False,National,On-prem,High,5,73050,3,300,Dedicated,Retail,10000,Tier 1,True,AWS,5000,3,junior-heavy,107468
+Retail,High,15,8,Java + Spring Boot,11,SMS,Moderate,False,True,Basic,3,True,False,False,Global,On-prem,Medium,1,18181,6,600,Basic,Finance,0,Tier 1,True,Azure,3000,8,balanced,1502504
+Retail,Medium,13,12,PHP + Laravel,13,All,Basic,True,False,Advanced,6,True,False,False,Local,On-prem,Low,5,94379,4,300,Dedicated,Education,0,Rural,True,DigitalOcean,5000,12,junior-heavy,1093856
+Healthcare,High,13,11,PHP + Laravel,5,All,Moderate,False,True,None,6,False,True,True,Local,Hybrid,Low,0,95982,5,1000,None,Logistics,5000,Tier 1,True,None,1000,11,senior-heavy,3160626
+Retail,High,11,6,MEAN,27,Maps,Moderate,False,False,Advanced,8,True,True,True,Local,On-prem,Low,4,72653,3,300,Dedicated,Education,20000,Tier 1,True,AWS,10000,6,junior-heavy,637150
+FinTech,High,6,2,Python + Django,11,All,Basic,False,True,Basic,7,True,True,True,Global,On-prem,Medium,3,53933,5,300,Dedicated,Finance,0,Rural,True,AWS,3000,2,junior-heavy,89942
+Retail,Medium,9,7,MEAN,18,Payment,Moderate,False,True,None,8,True,True,True,Local,Cloud,Low,3,63703,5,1000,None,Healthcare,5000,Tier 1,True,None,0,7,senior-heavy,1288950
+Travel,High,3,6,Python + Django,9,Payment,Moderate,True,True,Advanced,9,True,False,True,Local,Hybrid,Medium,4,69665,3,600,None,Logistics,10000,Tier 1,True,AWS,5000,6,balanced,282930
+Retail,Low,12,12,PHP + Laravel,24,None,Advanced,True,False,Advanced,10,False,False,True,Global,Hybrid,Medium,1,34864,5,300,None,Retail,20000,Tier 2,False,AWS,1000,12,junior-heavy,882150
+Healthcare,High,3,11,Java + Spring Boot,9,Maps,Basic,True,False,Basic,3,False,False,True,Global,Hybrid,Medium,5,13627,3,600,Basic,Finance,0,Tier 1,True,DigitalOcean,10000,11,balanced,479748
+FinTech,High,7,5,Python + Django,13,None,Basic,False,False,None,1,False,True,False,Local,Hybrid,Medium,4,92543,5,1000,Dedicated,Finance,5000,Tier 1,True,Azure,3000,5,senior-heavy,888749
+E-commerce,Medium,11,7,Java + Spring Boot,30,None,Moderate,True,True,Advanced,2,False,False,True,Local,Cloud,Low,3,3298,3,300,Dedicated,Retail,5000,Tier 2,True,DigitalOcean,10000,7,junior-heavy,595980
+Healthcare,Low,5,3,Python + Django,16,Maps,Basic,True,True,Advanced,4,False,False,False,Local,On-prem,Medium,5,66818,5,1000,Dedicated,Logistics,0,Tier 2,True,AWS,5000,3,senior-heavy,411735
+Education,Medium,7,11,Java + Spring Boot,18,All,Advanced,True,False,Advanced,4,False,True,False,Local,Hybrid,High,5,94347,7,300,Dedicated,Education,0,Tier 2,False,AWS,3000,11,junior-heavy,483486
+FinTech,High,13,11,Java + Spring Boot,26,SMS,Moderate,False,False,Advanced,3,True,False,False,Global,Hybrid,Low,4,74643,4,600,Basic,Logistics,0,Tier 1,False,DigitalOcean,3000,11,balanced,2185454
+Education,High,6,11,MEAN,21,SMS,Advanced,True,True,Basic,9,False,True,True,Global,On-prem,Low,1,19363,2,600,None,Education,10000,Tier 2,True,None,10000,11,balanced,1026878
+Healthcare,Low,9,11,MERN,29,None,Moderate,True,True,Advanced,9,False,True,True,Local,On-prem,Low,3,87550,6,1000,Dedicated,Logistics,20000,Tier 2,False,None,1000,11,senior-heavy,2314481
+Healthcare,High,11,4,Java + Spring Boot,29,All,Moderate,True,False,Basic,2,False,True,False,National,On-prem,High,0,18186,3,600,None,Healthcare,20000,Rural,True,Azure,5000,4,balanced,592042
+Healthcare,Medium,4,8,Python + Django,29,All,Advanced,True,False,Basic,1,False,False,False,National,Hybrid,High,5,71632,8,600,Dedicated,Education,20000,Tier 2,True,DigitalOcean,3000,8,balanced,474006
+Education,High,9,2,MEAN,19,Payment,Advanced,True,False,Advanced,10,True,True,False,Local,On-prem,Low,0,34149,5,600,Basic,Education,10000,Tier 2,False,DigitalOcean,5000,2,balanced,287880
+Education,Low,15,6,PHP + Laravel,6,Maps,Basic,True,True,None,4,True,True,True,Local,Cloud,Medium,5,15043,6,600,None,Healthcare,10000,Rural,False,DigitalOcean,5000,6,balanced,1453908
+E-commerce,High,5,11,MERN,14,All,Advanced,False,False,Advanced,4,True,True,True,Global,On-prem,High,4,15916,8,1000,Dedicated,Finance,5000,Tier 2,False,DigitalOcean,0,11,senior-heavy,1501604
+Education,Low,4,12,Python + Django,16,SMS,Advanced,True,False,None,9,False,False,False,National,Hybrid,High,2,42295,8,1000,None,Finance,0,Tier 2,False,Azure,3000,12,senior-heavy,1299294
+Education,Medium,15,11,MEAN,20,Payment,Moderate,False,False,Basic,10,False,True,True,Local,Cloud,High,3,64088,6,600,None,Healthcare,20000,Rural,False,None,10000,11,balanced,2272361
+Healthcare,Medium,15,3,PHP + Laravel,16,SMS,Advanced,False,False,Advanced,9,False,False,False,National,On-prem,Medium,1,15864,7,300,None,Retail,5000,Tier 1,True,Azure,3000,3,junior-heavy,314657
+Healthcare,Medium,6,9,MEAN,16,Payment,Moderate,True,True,Basic,1,True,False,True,Global,On-prem,Low,0,75293,4,1000,Basic,Healthcare,10000,Tier 2,False,Azure,3000,9,senior-heavy,1521700
+E-commerce,High,3,9,MERN,9,Payment,Advanced,False,True,None,2,False,True,False,National,On-prem,Medium,4,56257,4,600,Dedicated,Logistics,0,Tier 1,True,Azure,0,9,balanced,360064
+Retail,Low,13,6,MEAN,5,SMS,Moderate,False,False,None,4,False,False,False,Local,Hybrid,Low,2,81977,6,300,Dedicated,Education,5000,Tier 2,True,Azure,0,6,junior-heavy,491702
+FinTech,High,13,6,PHP + Laravel,14,SMS,Basic,False,False,Advanced,7,False,False,False,Local,Hybrid,Low,3,96326,4,300,Dedicated,Retail,0,Tier 1,True,Azure,1000,6,junior-heavy,455103
+Healthcare,Medium,13,11,PHP + Laravel,25,SMS,Moderate,True,False,Advanced,8,True,False,False,National,On-prem,Medium,5,13760,8,1000,None,Retail,10000,Tier 2,False,DigitalOcean,0,11,senior-heavy,3410054
+FinTech,Medium,13,10,MERN,29,SMS,Advanced,True,False,Basic,1,True,False,False,Global,On-prem,Low,1,35053,6,600,None,Retail,20000,Tier 2,False,AWS,0,10,balanced,1536748
+E-commerce,High,3,11,Python + Django,7,Payment,Basic,False,True,Advanced,3,False,False,False,National,On-prem,Medium,1,59921,6,1000,None,Healthcare,5000,Tier 1,True,AWS,1000,11,senior-heavy,722930
+FinTech,High,7,7,Java + Spring Boot,23,All,Advanced,False,True,Basic,9,False,False,False,Global,Hybrid,Medium,3,42226,8,600,None,Education,10000,Rural,False,Azure,10000,7,balanced,856330
+Education,Medium,15,2,MEAN,20,None,Basic,False,True,Basic,2,False,True,True,National,Hybrid,Low,0,61587,8,600,Basic,Retail,20000,Rural,False,AWS,3000,2,balanced,477742
+Education,High,8,10,MERN,24,None,Basic,False,True,Advanced,2,False,True,True,National,Cloud,High,2,3844,2,1000,Basic,Finance,10000,Tier 2,False,DigitalOcean,5000,10,senior-heavy,2003309
+Healthcare,Low,9,5,MEAN,7,All,Moderate,True,False,Advanced,3,True,False,False,National,On-prem,High,0,61031,4,300,Dedicated,Logistics,20000,Tier 1,True,None,10000,5,junior-heavy,395028
+FinTech,Low,8,6,Python + Django,20,None,Basic,False,False,Advanced,5,False,True,False,National,Cloud,High,5,97655,2,1000,Dedicated,Healthcare,10000,Tier 2,True,DigitalOcean,5000,6,senior-heavy,1131876
+Travel,High,6,5,MEAN,25,None,Advanced,True,False,Basic,1,False,True,True,National,On-prem,High,3,23071,3,1000,None,Logistics,10000,Tier 2,False,Azure,10000,5,senior-heavy,807196
+E-commerce,Low,7,6,MEAN,26,SMS,Advanced,False,True,Basic,1,False,True,False,National,Hybrid,High,5,34412,6,600,Basic,Retail,0,Tier 1,True,None,3000,6,balanced,593769
+Travel,Medium,3,10,Java + Spring Boot,25,SMS,Basic,True,True,None,5,False,True,True,Local,Hybrid,Low,3,59509,4,1000,Dedicated,Logistics,5000,Tier 2,True,None,3000,10,senior-heavy,770797
+FinTech,Low,13,9,Java + Spring Boot,11,SMS,Moderate,True,False,None,6,False,True,False,National,Cloud,Low,3,12065,7,300,None,Logistics,20000,Tier 1,True,DigitalOcean,10000,9,junior-heavy,1081243
+Retail,Low,6,11,PHP + Laravel,11,Payment,Moderate,True,True,Basic,3,True,False,True,Local,Hybrid,Low,1,1997,4,300,None,Logistics,0,Tier 2,True,Azure,1000,11,junior-heavy,527848
+Education,Medium,7,4,Java + Spring Boot,21,All,Basic,False,True,Advanced,1,False,False,True,Local,On-prem,Medium,3,89978,2,300,Basic,Healthcare,0,Tier 1,True,DigitalOcean,5000,4,junior-heavy,235164
+Retail,High,12,3,Java + Spring Boot,17,All,Advanced,False,False,Advanced,10,False,True,True,Global,Hybrid,High,5,28233,5,300,Basic,Education,10000,Tier 2,False,None,1000,3,junior-heavy,275591
+FinTech,Medium,9,3,MEAN,26,SMS,Basic,True,True,None,7,True,False,True,Global,Cloud,High,4,73670,4,600,Dedicated,Finance,20000,Tier 2,False,None,3000,3,balanced,375768
+Retail,High,14,6,MEAN,9,SMS,Basic,True,False,Advanced,6,True,False,True,National,Hybrid,High,4,88520,7,300,Dedicated,Finance,10000,Rural,False,AWS,10000,6,junior-heavy,618567
+Healthcare,High,5,6,Python + Django,7,Payment,Advanced,True,True,Advanced,9,True,False,False,National,On-prem,Low,2,40896,7,600,Basic,Logistics,10000,Rural,True,AWS,3000,6,balanced,361435
+Travel,Medium,5,11,Python + Django,24,SMS,Moderate,False,True,Advanced,2,False,False,True,National,Hybrid,High,4,63833,6,300,Dedicated,Retail,0,Tier 1,True,None,0,11,junior-heavy,348059
+Healthcare,Medium,12,2,Java + Spring Boot,15,None,Basic,False,False,None,3,False,True,False,Local,On-prem,High,0,57226,2,300,Basic,Finance,10000,Tier 2,False,None,1000,2,junior-heavy,209273
+FinTech,Low,14,8,PHP + Laravel,19,Maps,Basic,False,True,None,7,False,True,False,National,Hybrid,Medium,1,43705,8,1000,None,Finance,0,Rural,True,Azure,3000,8,senior-heavy,2517888
+FinTech,Low,15,7,MEAN,24,Payment,Advanced,True,True,Advanced,8,False,False,False,Global,On-prem,Low,3,9000,5,600,Basic,Retail,5000,Tier 2,True,DigitalOcean,1000,7,balanced,1245788
+FinTech,Medium,11,6,MERN,25,None,Advanced,False,False,Advanced,9,True,False,True,National,Hybrid,Medium,4,19823,2,300,Basic,Finance,20000,Tier 2,True,Azure,5000,6,junior-heavy,420064
+FinTech,Medium,3,9,Python + Django,29,Maps,Advanced,True,False,None,6,True,False,False,National,Hybrid,High,4,19759,4,300,None,Logistics,5000,Rural,True,DigitalOcean,5000,9,junior-heavy,227186
+E-commerce,Medium,7,12,PHP + Laravel,17,Maps,Basic,True,False,Advanced,6,True,False,False,Local,Cloud,Medium,3,25216,3,1000,None,Education,5000,Tier 1,False,AWS,5000,12,senior-heavy,2081375
+Retail,Low,11,10,PHP + Laravel,17,Payment,Basic,True,True,Advanced,8,True,False,False,Global,Hybrid,Low,3,80081,4,1000,Dedicated,Healthcare,10000,Tier 1,True,DigitalOcean,0,10,senior-heavy,2917353
+FinTech,Medium,15,5,PHP + Laravel,21,SMS,Basic,True,True,Basic,1,False,False,True,Global,Hybrid,Low,2,11043,8,600,None,Retail,20000,Tier 2,True,None,3000,5,balanced,1060538
+Education,High,4,9,Java + Spring Boot,12,SMS,Basic,False,True,None,6,True,False,True,Local,Cloud,Medium,3,91285,8,300,None,Healthcare,0,Tier 2,True,AWS,3000,9,junior-heavy,268822
+FinTech,Low,3,5,Java + Spring Boot,8,None,Basic,False,False,None,2,False,True,True,Global,Cloud,Medium,3,255,6,600,Basic,Education,20000,Rural,False,Azure,1000,5,balanced,199467
+Retail,High,13,3,PHP + Laravel,30,All,Advanced,True,False,Basic,1,False,False,False,Global,Cloud,Medium,0,45243,3,1000,Dedicated,Finance,10000,Rural,False,Azure,10000,3,senior-heavy,787610
+Travel,Medium,3,10,Python + Django,25,Payment,Basic,True,False,None,5,True,True,True,Local,On-prem,Medium,4,52246,8,600,Dedicated,Healthcare,5000,Tier 2,True,Azure,3000,10,balanced,509508
+FinTech,Medium,7,2,Python + Django,28,SMS,Moderate,False,True,Basic,8,False,False,True,Global,On-prem,Low,3,79014,8,600,None,Logistics,10000,Tier 2,False,AWS,3000,2,balanced,180677
+Travel,Medium,4,12,MEAN,27,SMS,Moderate,False,True,Advanced,6,False,False,True,Local,Hybrid,High,3,47669,6,600,Dedicated,Education,10000,Tier 1,True,None,3000,12,balanced,698877
+Retail,Low,3,3,PHP + Laravel,9,SMS,Moderate,False,False,None,10,True,False,False,National,Hybrid,Medium,1,14919,2,300,Dedicated,Education,10000,Tier 2,False,AWS,1000,3,junior-heavy,72027
+Education,Low,7,9,MERN,9,None,Moderate,True,False,None,6,False,True,False,National,Cloud,High,5,91829,7,600,None,Retail,10000,Rural,True,AWS,1000,9,balanced,959129
+Retail,Medium,6,5,Python + Django,30,All,Basic,True,True,Basic,7,False,False,False,Global,Cloud,Low,2,84242,2,300,Basic,Healthcare,0,Rural,False,Azure,5000,5,junior-heavy,221741
+Healthcare,Medium,15,12,PHP + Laravel,6,None,Advanced,True,False,None,3,False,True,False,Global,On-prem,Low,2,25779,7,1000,Dedicated,Retail,5000,Tier 1,False,AWS,10000,12,senior-heavy,4726805
+Retail,High,11,4,PHP + Laravel,15,All,Basic,True,True,None,10,False,True,False,Global,Hybrid,Low,3,82253,6,1000,Basic,Retail,5000,Tier 2,True,None,10000,4,senior-heavy,930420
+Education,Medium,7,3,MEAN,15,All,Basic,False,False,Advanced,6,False,True,False,Global,Hybrid,Low,2,31735,5,600,None,Retail,5000,Tier 2,True,Azure,0,3,balanced,289492
+Healthcare,Medium,4,6,PHP + Laravel,28,Maps,Basic,True,False,Advanced,8,False,False,False,Local,Cloud,Medium,4,59980,3,300,None,Logistics,20000,Tier 2,True,AWS,5000,6,junior-heavy,197835
+E-commerce,Medium,7,11,MEAN,13,Maps,Moderate,False,True,Basic,1,True,False,False,Local,On-prem,High,3,72120,4,600,Dedicated,Logistics,10000,Tier 1,True,AWS,5000,11,balanced,1151340
+Healthcare,High,9,7,PHP + Laravel,17,All,Basic,True,True,None,6,False,False,True,Global,Hybrid,Low,2,80406,4,600,None,Healthcare,10000,Rural,False,DigitalOcean,10000,7,balanced,1050150
+E-commerce,Medium,11,10,Java + Spring Boot,26,None,Moderate,False,True,Advanced,8,False,True,True,Global,On-prem,Low,4,82497,7,1000,Dedicated,Healthcare,10000,Tier 1,True,AWS,5000,10,senior-heavy,2579093
+Education,Low,12,3,Python + Django,27,Payment,Moderate,False,True,Advanced,3,True,False,False,Global,On-prem,Medium,1,60299,6,1000,Basic,Logistics,0,Tier 2,False,None,1000,3,senior-heavy,816000
+FinTech,Medium,6,6,MEAN,27,SMS,Moderate,False,False,Advanced,5,False,True,False,National,On-prem,Low,2,5563,4,300,Dedicated,Finance,10000,Tier 2,False,DigitalOcean,10000,6,junior-heavy,289127
+Travel,Medium,14,5,MEAN,8,All,Advanced,True,True,None,9,True,True,True,Local,On-prem,Medium,5,61968,2,600,Dedicated,Education,10000,Tier 1,True,None,1000,5,balanced,1148593
+Travel,Low,13,9,MERN,25,All,Basic,True,True,Basic,3,True,False,False,Local,Hybrid,Medium,0,1264,4,600,Dedicated,Logistics,10000,Tier 1,False,DigitalOcean,1000,9,balanced,1529735
+Healthcare,High,10,10,Python + Django,13,Payment,Basic,False,True,Advanced,8,False,True,True,Global,On-prem,Medium,4,88445,8,1000,None,Education,20000,Rural,False,None,10000,10,senior-heavy,2797233
+Healthcare,Medium,11,3,Java + Spring Boot,12,None,Moderate,False,True,Basic,5,False,False,True,National,Hybrid,Medium,5,31022,2,600,Dedicated,Finance,0,Tier 2,False,Azure,5000,3,balanced,416314
+FinTech,Medium,9,10,PHP + Laravel,12,Payment,Basic,False,True,Basic,10,False,False,False,Global,Hybrid,Low,1,89223,8,1000,Dedicated,Finance,0,Rural,False,DigitalOcean,3000,10,senior-heavy,2222023
+Healthcare,Low,4,3,Java + Spring Boot,21,SMS,Basic,True,False,None,9,False,True,False,Local,Hybrid,Medium,3,73962,2,1000,Dedicated,Healthcare,5000,Rural,False,AWS,0,3,senior-heavy,290272
+FinTech,High,9,2,MERN,22,None,Basic,False,True,Basic,7,True,True,False,National,On-prem,Medium,3,49286,2,600,Dedicated,Logistics,0,Tier 1,False,AWS,1000,2,balanced,208000
+Healthcare,Low,5,8,MERN,14,SMS,Advanced,False,False,None,4,False,False,True,National,Cloud,High,0,4272,8,1000,Dedicated,Healthcare,5000,Rural,True,Azure,10000,8,senior-heavy,1101203
+Travel,High,6,3,MERN,12,None,Moderate,False,True,Advanced,4,True,True,False,Local,Hybrid,High,2,75740,6,300,Dedicated,Retail,0,Tier 1,False,Azure,10000,3,junior-heavy,153052
+Retail,High,13,5,MEAN,25,SMS,Advanced,False,True,Basic,7,False,False,False,Local,On-prem,Medium,1,98932,6,1000,Basic,Education,10000,Tier 1,False,Azure,5000,5,senior-heavy,1406490
+Retail,High,15,2,MEAN,17,Payment,Moderate,True,False,Advanced,2,False,False,True,Global,Hybrid,Low,0,35237,5,600,Dedicated,Logistics,20000,Rural,True,AWS,10000,2,balanced,539381
+FinTech,Medium,6,12,MERN,11,Payment,Advanced,True,False,None,10,True,False,True,Global,On-prem,Medium,3,61162,6,1000,Dedicated,Retail,5000,Tier 2,False,DigitalOcean,10000,12,senior-heavy,1780363
+FinTech,Low,11,9,Java + Spring Boot,15,SMS,Basic,True,True,None,5,False,False,True,Local,On-prem,Low,3,74733,8,600,None,Healthcare,20000,Rural,False,DigitalOcean,0,9,balanced,1531991
+FinTech,Low,15,12,MEAN,28,All,Moderate,True,True,Advanced,1,True,True,True,National,Cloud,High,1,8958,7,600,None,Finance,20000,Tier 1,False,DigitalOcean,5000,12,balanced,2252872
+E-commerce,Low,3,12,PHP + Laravel,22,SMS,Basic,True,False,Advanced,5,True,False,True,Local,Cloud,High,1,31634,3,1000,Dedicated,Logistics,20000,Tier 2,False,DigitalOcean,10000,12,senior-heavy,1037981
+Healthcare,High,15,3,MEAN,14,None,Advanced,True,True,Basic,7,False,False,True,Global,Cloud,High,1,10887,5,600,Basic,Retail,20000,Rural,True,AWS,3000,3,balanced,643932
+E-commerce,High,6,11,Java + Spring Boot,22,All,Advanced,True,True,Basic,1,True,True,False,Local,On-prem,Low,4,31569,6,300,Basic,Logistics,10000,Tier 2,False,Azure,5000,11,junior-heavy,434833
+Education,Low,15,3,MERN,15,All,Advanced,False,False,None,5,False,False,True,National,Hybrid,Medium,3,24395,7,1000,Dedicated,Healthcare,10000,Tier 1,False,Azure,10000,3,senior-heavy,897622
+Travel,Low,14,3,Python + Django,15,Maps,Basic,True,True,Basic,8,False,False,True,Local,Cloud,Low,3,58880,6,300,Dedicated,Logistics,5000,Tier 2,True,AWS,3000,3,junior-heavy,291782
+E-commerce,Medium,4,10,Python + Django,17,None,Advanced,True,True,Advanced,7,True,True,False,National,On-prem,Medium,1,8342,3,600,Basic,Retail,10000,Tier 2,False,None,0,10,balanced,643172
+Education,High,15,7,PHP + Laravel,11,SMS,Basic,True,False,None,7,False,False,False,National,On-prem,Medium,5,77958,3,300,Basic,Retail,5000,Rural,True,None,3000,7,junior-heavy,818480
+Travel,Medium,8,8,PHP + Laravel,30,Payment,Moderate,False,False,Basic,6,True,True,True,Global,Hybrid,Low,5,60555,7,300,None,Healthcare,10000,Tier 2,True,None,3000,8,junior-heavy,522098
+Healthcare,High,13,4,Python + Django,30,SMS,Basic,False,False,Advanced,7,False,True,False,Global,Hybrid,High,5,11188,2,600,None,Retail,5000,Tier 1,True,None,3000,4,balanced,668984
+Healthcare,High,15,8,PHP + Laravel,22,All,Advanced,True,False,Basic,7,False,True,False,Local,On-prem,Low,2,54572,2,600,None,Education,0,Tier 2,False,DigitalOcean,0,8,balanced,1408877
+Education,High,10,10,Python + Django,15,None,Moderate,True,True,None,6,True,True,True,Global,Cloud,High,1,43433,6,300,Basic,Healthcare,10000,Tier 1,False,Azure,5000,10,junior-heavy,749134
+Retail,Low,5,12,Python + Django,23,SMS,Moderate,True,True,None,5,True,True,True,National,On-prem,Low,3,14986,4,1000,Dedicated,Healthcare,20000,Rural,False,None,5000,12,senior-heavy,1206347
+Education,High,12,11,MEAN,26,Maps,Advanced,True,True,Basic,2,True,False,True,Local,On-prem,High,1,67004,5,600,Basic,Logistics,10000,Tier 1,False,None,0,11,balanced,1736267
+Education,Medium,5,12,MEAN,10,Maps,Moderate,True,False,None,8,True,True,False,Global,Hybrid,High,3,53676,7,600,Basic,Healthcare,5000,Rural,False,None,10000,12,balanced,982991
+FinTech,Low,5,11,PHP + Laravel,14,Payment,Moderate,False,True,Advanced,2,False,False,True,Global,On-prem,High,1,55775,2,300,Dedicated,Education,5000,Tier 2,True,None,0,11,junior-heavy,355795
+Healthcare,Low,7,3,PHP + Laravel,27,Maps,Advanced,False,True,Advanced,3,True,True,True,Global,On-prem,High,2,78281,6,600,None,Retail,0,Rural,False,DigitalOcean,5000,3,balanced,339025
+Education,Low,12,10,Java + Spring Boot,25,Payment,Advanced,True,True,None,6,True,False,False,Local,Hybrid,High,2,82338,5,600,Basic,Healthcare,5000,Tier 1,True,None,0,10,balanced,1962587
+FinTech,High,11,6,MERN,29,None,Advanced,False,False,None,9,False,True,False,Local,On-prem,Medium,2,37221,4,1000,Dedicated,Logistics,20000,Tier 1,False,DigitalOcean,3000,6,senior-heavy,1832851
+Healthcare,Medium,13,2,Python + Django,5,SMS,Basic,True,False,None,5,True,False,False,Local,On-prem,High,5,21745,2,300,Basic,Retail,20000,Rural,True,None,0,2,junior-heavy,164107
+Healthcare,High,13,3,MEAN,21,SMS,Basic,True,False,None,7,True,False,True,Local,On-prem,Low,5,13475,2,300,Basic,Retail,5000,Tier 2,True,None,0,3,junior-heavy,273085
+E-commerce,High,15,12,MEAN,19,Maps,Advanced,True,True,Basic,10,False,True,True,Local,Cloud,Low,4,95733,5,300,Basic,Healthcare,0,Tier 2,True,Azure,1000,12,junior-heavy,1274643
+Travel,Low,7,3,Java + Spring Boot,11,All,Advanced,True,False,Basic,1,True,False,False,Local,Cloud,Medium,5,77897,2,1000,Dedicated,Finance,10000,Tier 2,False,Azure,1000,3,senior-heavy,551754
+E-commerce,Low,9,8,PHP + Laravel,7,None,Moderate,True,True,None,7,False,False,False,Global,On-prem,Low,5,70378,6,1000,Dedicated,Education,5000,Tier 2,True,DigitalOcean,3000,8,senior-heavy,1863160
+Travel,High,4,5,MERN,14,SMS,Advanced,True,True,None,2,False,True,False,Global,Hybrid,Low,2,87354,7,1000,Dedicated,Education,10000,Tier 1,True,Azure,1000,5,senior-heavy,457863
+Travel,Medium,14,4,MEAN,16,Payment,Advanced,False,True,None,6,False,False,True,National,Hybrid,High,5,10151,5,300,Basic,Logistics,10000,Tier 2,True,None,5000,4,junior-heavy,423257
+Retail,High,12,7,MERN,12,All,Basic,True,True,None,1,False,False,False,Local,Cloud,Low,4,93638,7,300,Dedicated,Healthcare,10000,Tier 1,False,Azure,1000,7,junior-heavy,662442
+E-commerce,High,9,7,MERN,10,Payment,Advanced,True,False,None,8,False,False,False,Local,Hybrid,Medium,0,48404,3,1000,Basic,Logistics,0,Tier 2,True,None,3000,7,senior-heavy,1517610
+Education,Low,8,9,MEAN,22,Maps,Advanced,True,False,None,7,False,True,True,Global,Cloud,Medium,3,7900,3,1000,Dedicated,Retail,5000,Tier 1,True,Azure,1000,9,senior-heavy,1454542
+Retail,Low,11,7,Python + Django,7,All,Advanced,True,False,Advanced,3,True,False,False,National,On-prem,High,5,42812,4,600,Basic,Retail,0,Tier 1,True,Azure,5000,7,balanced,1137938
+Education,Medium,5,3,Python + Django,8,All,Moderate,True,False,Basic,8,False,True,True,Local,Hybrid,Medium,5,91391,6,1000,None,Education,0,Tier 2,True,AWS,1000,3,senior-heavy,304944
+FinTech,Low,14,7,MERN,17,SMS,Advanced,True,True,Basic,2,True,True,True,Local,Cloud,Low,1,52555,4,300,Dedicated,Finance,0,Rural,False,AWS,5000,7,junior-heavy,764211
+FinTech,Low,3,5,MERN,19,None,Basic,False,False,Basic,1,False,False,True,National,Cloud,Low,2,36731,5,300,None,Finance,5000,Rural,True,DigitalOcean,5000,5,junior-heavy,114396
+Education,Low,10,10,Python + Django,11,All,Basic,True,False,Advanced,6,False,False,False,Global,Hybrid,Medium,3,35496,3,600,None,Retail,0,Rural,True,AWS,5000,10,balanced,1212571
+Healthcare,Low,15,2,MERN,12,Payment,Moderate,True,True,Advanced,7,False,True,True,Local,Hybrid,Medium,5,91489,4,600,Dedicated,Finance,10000,Rural,False,Azure,5000,2,balanced,481202
+E-commerce,Low,12,9,MERN,12,All,Basic,True,False,None,6,True,True,False,Global,Cloud,Medium,0,2922,3,300,Dedicated,Education,10000,Tier 1,False,AWS,10000,9,junior-heavy,747957
+FinTech,Low,8,12,MEAN,28,SMS,Advanced,False,False,None,9,False,True,True,National,On-prem,High,5,38652,3,1000,None,Finance,0,Rural,False,AWS,5000,12,senior-heavy,2138604
+E-commerce,Medium,5,7,MEAN,15,None,Basic,False,False,None,2,False,False,True,National,Cloud,Low,5,8935,4,1000,Basic,Finance,5000,Rural,True,AWS,10000,7,senior-heavy,934450
+Education,Medium,9,8,PHP + Laravel,17,None,Moderate,True,True,Basic,2,True,False,True,National,On-prem,Low,0,44851,3,600,Basic,Education,20000,Rural,True,AWS,1000,8,balanced,1024612
+Travel,Low,8,11,PHP + Laravel,18,Payment,Basic,True,False,None,4,False,False,False,National,Cloud,Low,0,51548,6,1000,Dedicated,Healthcare,0,Tier 1,True,DigitalOcean,5000,11,senior-heavy,2035855
+E-commerce,Low,3,3,MEAN,25,Maps,Basic,False,True,Basic,7,False,False,False,Local,Hybrid,High,3,24282,4,600,Basic,Retail,20000,Tier 1,False,AWS,3000,3,balanced,137434
+Retail,Low,7,9,MEAN,29,None,Basic,False,False,Advanced,4,True,False,False,Global,Hybrid,Medium,4,30936,5,600,Basic,Finance,5000,Tier 2,True,Azure,3000,9,balanced,1023220
+Healthcare,Low,4,4,Python + Django,7,SMS,Basic,True,False,Basic,2,True,False,False,Global,On-prem,Medium,4,60101,8,600,None,Logistics,5000,Rural,False,AWS,1000,4,balanced,258379
+Retail,Low,9,4,Java + Spring Boot,22,Maps,Moderate,False,False,Advanced,8,False,True,True,National,On-prem,Low,4,79827,7,300,Dedicated,Healthcare,0,Tier 1,False,DigitalOcean,10000,4,junior-heavy,338664
+E-commerce,Medium,14,2,Java + Spring Boot,14,Maps,Moderate,True,True,None,5,False,False,False,Global,On-prem,High,5,11753,3,300,Basic,Education,10000,Tier 2,False,DigitalOcean,5000,2,junior-heavy,247564
+Education,Low,3,4,PHP + Laravel,23,None,Basic,True,True,None,4,True,False,True,National,Hybrid,Low,2,48330,8,1000,Basic,Logistics,10000,Tier 2,True,AWS,0,4,senior-heavy,310668
+Education,High,6,9,PHP + Laravel,16,Maps,Basic,False,True,Basic,1,False,True,True,Global,Cloud,Low,5,29555,7,600,None,Retail,20000,Rural,False,AWS,10000,9,balanced,757826
+Retail,Low,15,2,MEAN,13,All,Moderate,False,False,Basic,6,False,False,True,National,On-prem,High,4,81787,5,1000,Dedicated,Finance,5000,Tier 1,False,DigitalOcean,5000,2,senior-heavy,748540
+FinTech,High,7,3,Java + Spring Boot,13,Maps,Advanced,False,True,None,9,True,True,False,Global,On-prem,High,1,94590,2,1000,Dedicated,Healthcare,0,Tier 2,False,None,5000,3,senior-heavy,469612
+Travel,Low,9,2,PHP + Laravel,25,SMS,Advanced,False,False,None,9,True,False,True,National,Cloud,High,2,95101,8,600,Dedicated,Education,5000,Rural,False,AWS,10000,2,balanced,259256
+FinTech,Medium,6,5,Java + Spring Boot,23,Maps,Moderate,True,False,None,10,True,False,True,Global,Cloud,High,3,69496,4,600,Basic,Finance,20000,Tier 1,True,Azure,3000,5,balanced,502216
+Travel,Low,8,11,MERN,20,Maps,Advanced,True,False,Advanced,1,True,False,False,Local,Cloud,High,1,64219,8,600,None,Education,5000,Rural,False,None,5000,11,balanced,1192957
+Healthcare,High,9,9,Java + Spring Boot,5,Maps,Advanced,True,True,Advanced,1,True,True,False,National,Cloud,Low,3,66023,6,600,Basic,Education,0,Tier 1,True,DigitalOcean,5000,9,balanced,963883
+Travel,Low,7,10,Java + Spring Boot,20,Maps,Basic,True,False,None,4,True,True,True,Global,Cloud,High,4,22199,2,600,Basic,Finance,10000,Tier 2,False,AWS,10000,10,balanced,1058263
+E-commerce,Medium,12,12,Python + Django,17,None,Advanced,False,False,Advanced,3,True,True,False,National,Hybrid,Low,5,68247,4,300,Dedicated,Logistics,0,Rural,True,None,0,12,junior-heavy,826177
+E-commerce,Medium,4,11,MEAN,24,Payment,Moderate,True,False,Advanced,7,False,True,True,Global,On-prem,Low,5,63051,4,1000,None,Finance,10000,Tier 1,True,AWS,0,11,senior-heavy,875901
+E-commerce,High,12,9,MERN,13,Payment,Moderate,False,False,Basic,1,True,True,True,National,On-prem,High,2,55886,7,1000,None,Finance,0,Tier 1,True,Azure,1000,9,senior-heavy,2770918
+Retail,Medium,13,4,MERN,16,Maps,Basic,True,False,Basic,8,False,False,False,National,Hybrid,Low,0,17418,7,1000,Dedicated,Finance,10000,Tier 1,True,None,3000,4,senior-heavy,1408307
+FinTech,High,12,11,MERN,26,Payment,Moderate,False,True,Basic,8,True,True,False,Global,On-prem,Low,5,88907,6,600,Dedicated,Logistics,5000,Rural,True,DigitalOcean,5000,11,balanced,1972779
+Healthcare,Medium,11,11,Java + Spring Boot,26,SMS,Basic,True,True,Advanced,3,False,False,True,Local,On-prem,Medium,1,43421,4,1000,None,Logistics,20000,Tier 1,False,None,0,11,senior-heavy,2989585
+Education,Medium,6,9,Java + Spring Boot,8,SMS,Advanced,True,True,Basic,7,True,True,True,Global,Hybrid,High,2,66678,6,300,None,Healthcare,20000,Tier 2,False,AWS,5000,9,junior-heavy,373026
+FinTech,High,6,7,Python + Django,8,None,Advanced,True,True,Basic,6,False,False,True,Local,Cloud,Medium,1,94009,7,600,Dedicated,Healthcare,20000,Tier 1,False,Azure,10000,7,balanced,732465
+Healthcare,High,6,8,Java + Spring Boot,8,SMS,Basic,True,False,Basic,10,True,False,True,Global,Hybrid,Low,4,56779,8,300,Dedicated,Healthcare,20000,Rural,True,Azure,1000,8,junior-heavy,406802
+Education,Medium,14,3,PHP + Laravel,27,Payment,Moderate,False,False,Basic,8,True,True,False,Global,Hybrid,High,4,39229,8,300,Dedicated,Logistics,10000,Tier 2,True,Azure,5000,3,junior-heavy,317806
+Travel,Low,6,6,PHP + Laravel,22,Maps,Advanced,True,False,Advanced,8,False,False,False,Local,Hybrid,Low,0,49971,3,1000,None,Finance,5000,Tier 1,False,Azure,3000,6,senior-heavy,1012665
+FinTech,Low,7,6,PHP + Laravel,6,Maps,Moderate,True,True,Advanced,9,False,True,False,Global,Hybrid,Low,3,50847,5,1000,Dedicated,Retail,0,Rural,True,AWS,1000,6,senior-heavy,1047401
+Travel,High,14,5,Java + Spring Boot,29,All,Advanced,True,True,Basic,8,True,True,True,Local,Hybrid,High,0,49490,2,600,Basic,Retail,20000,Rural,False,Azure,10000,5,balanced,1174901
+Healthcare,Low,5,6,MEAN,15,All,Basic,False,False,Advanced,9,False,True,False,Global,Cloud,Low,4,8986,8,1000,Dedicated,Education,10000,Tier 2,False,AWS,0,6,senior-heavy,694476
+Healthcare,High,8,5,PHP + Laravel,20,All,Advanced,True,True,Advanced,6,False,True,True,Local,Hybrid,Medium,3,14910,5,300,Basic,Logistics,10000,Rural,False,AWS,3000,5,junior-heavy,287358
+FinTech,High,11,10,MEAN,15,All,Basic,True,True,Advanced,9,True,True,True,Global,Hybrid,Low,5,55651,8,600,None,Education,20000,Rural,False,AWS,10000,10,balanced,1642302
+E-commerce,Low,14,4,MERN,6,Payment,Moderate,True,True,Basic,7,False,False,False,National,On-prem,Low,3,88300,2,1000,Dedicated,Finance,20000,Rural,True,AWS,0,4,senior-heavy,1423207
+Travel,Medium,14,7,PHP + Laravel,7,Maps,Moderate,False,False,Advanced,1,False,True,True,Local,Hybrid,Medium,4,38713,7,300,None,Retail,0,Rural,False,AWS,10000,7,junior-heavy,692381
+Retail,Medium,11,4,PHP + Laravel,22,None,Moderate,True,False,None,7,True,True,True,Local,Hybrid,Medium,1,15073,3,1000,Dedicated,Logistics,0,Tier 1,False,AWS,0,4,senior-heavy,824747
+Retail,Medium,7,3,Java + Spring Boot,16,Payment,Advanced,True,True,Basic,10,True,True,False,National,On-prem,Medium,4,86481,4,1000,Dedicated,Logistics,0,Tier 1,False,DigitalOcean,3000,3,senior-heavy,437543
+Travel,High,9,2,Python + Django,13,Maps,Basic,False,False,Basic,8,False,False,False,Global,Cloud,Low,5,79561,2,300,Basic,Education,5000,Rural,True,DigitalOcean,3000,2,junior-heavy,151121
+Travel,Low,14,3,PHP + Laravel,23,SMS,Advanced,True,True,Advanced,5,False,True,False,National,Cloud,High,5,38191,3,1000,Basic,Logistics,0,Rural,True,None,0,3,senior-heavy,1099407
+Healthcare,Medium,8,2,MEAN,10,All,Advanced,True,False,Basic,1,True,False,True,Local,On-prem,Medium,1,5660,7,1000,None,Logistics,5000,Tier 2,False,None,1000,2,senior-heavy,413884
+Retail,High,10,2,Java + Spring Boot,28,Maps,Advanced,True,False,Advanced,7,False,True,False,National,Cloud,High,3,46305,8,300,Basic,Healthcare,0,Tier 2,True,Azure,3000,2,junior-heavy,156146
+Healthcare,Low,10,5,Java + Spring Boot,24,None,Advanced,True,False,Basic,2,False,False,False,Local,Hybrid,Low,5,53907,2,300,None,Finance,10000,Tier 1,True,Azure,0,5,junior-heavy,317766
+FinTech,Low,13,2,PHP + Laravel,17,All,Advanced,True,False,None,4,False,False,False,Local,Cloud,Medium,4,18755,8,1000,Dedicated,Education,5000,Rural,False,Azure,10000,2,senior-heavy,520801
+Education,Low,14,7,MERN,5,Payment,Advanced,False,True,Advanced,2,True,False,True,Global,Hybrid,Low,0,63258,7,1000,None,Logistics,0,Rural,True,None,5000,7,senior-heavy,2063758
+Education,Medium,11,7,Java + Spring Boot,23,All,Basic,False,True,Basic,8,True,True,False,Global,Hybrid,Medium,2,24825,2,600,Dedicated,Finance,20000,Rural,True,AWS,0,7,balanced,976075
+Healthcare,Medium,9,5,PHP + Laravel,13,Maps,Advanced,False,False,Advanced,5,False,True,False,Global,Hybrid,Medium,1,48574,6,1000,Dedicated,Healthcare,20000,Tier 2,False,DigitalOcean,3000,5,senior-heavy,1019780
+Education,High,15,8,MEAN,8,Payment,Advanced,False,False,Advanced,10,True,True,False,Global,Cloud,Low,1,61872,6,1000,Basic,Finance,0,Tier 1,False,Azure,1000,8,senior-heavy,3042884
+Education,High,8,11,PHP + Laravel,14,All,Basic,True,False,Basic,1,True,False,True,Local,Hybrid,High,4,91597,3,300,Dedicated,Education,20000,Rural,True,DigitalOcean,0,11,junior-heavy,734342
+Education,Medium,6,2,Python + Django,17,All,Basic,True,True,None,9,False,False,False,National,Cloud,High,1,59656,5,1000,Dedicated,Finance,0,Tier 2,True,None,1000,2,senior-heavy,332161
+E-commerce,High,11,10,Java + Spring Boot,22,All,Moderate,False,False,Advanced,8,True,False,False,Global,On-prem,High,0,63222,2,300,Basic,Finance,10000,Tier 2,True,Azure,0,10,junior-heavy,725685
+FinTech,Low,15,8,Java + Spring Boot,7,SMS,Advanced,False,True,Advanced,3,False,False,False,Local,Hybrid,Medium,1,97850,7,600,None,Healthcare,0,Rural,True,Azure,3000,8,balanced,1817566
+Healthcare,High,14,6,Java + Spring Boot,9,None,Basic,True,False,Advanced,1,True,False,False,Global,On-prem,Medium,4,36059,5,300,None,Logistics,5000,Tier 2,False,Azure,1000,6,junior-heavy,526447
+Retail,Low,15,4,PHP + Laravel,16,SMS,Advanced,True,False,None,9,False,False,True,Local,Hybrid,Low,3,76203,2,1000,Basic,Retail,20000,Rural,False,Azure,0,4,senior-heavy,1395379
+FinTech,Medium,11,5,MEAN,20,SMS,Basic,False,False,Basic,7,False,False,True,Global,Cloud,High,5,30008,8,600,None,Retail,20000,Tier 1,False,None,3000,5,balanced,938625
+Education,Low,6,4,PHP + Laravel,22,Maps,Moderate,False,False,Advanced,10,True,False,True,Global,Cloud,Low,1,33380,5,300,Dedicated,Finance,0,Tier 2,False,DigitalOcean,5000,4,junior-heavy,164242
+Education,Low,8,10,Java + Spring Boot,26,All,Basic,True,False,Basic,6,False,False,True,National,Hybrid,Medium,3,82849,3,600,None,Retail,10000,Tier 2,False,AWS,10000,10,balanced,1151607
+FinTech,High,4,7,Java + Spring Boot,24,SMS,Moderate,False,False,Advanced,10,False,False,True,Local,Cloud,Low,5,30803,7,300,Basic,Finance,10000,Tier 1,True,None,1000,7,junior-heavy,197108
+Education,High,4,3,MERN,8,Maps,Advanced,True,True,Advanced,7,False,True,True,Global,On-prem,Medium,5,16619,3,300,Dedicated,Education,0,Tier 1,True,DigitalOcean,5000,3,junior-heavy,81063
+Healthcare,High,8,9,PHP + Laravel,10,All,Advanced,False,False,Advanced,9,False,False,False,Global,Cloud,Low,3,40402,4,600,Basic,Retail,10000,Tier 1,False,AWS,10000,9,balanced,1123316
+E-commerce,High,3,4,Python + Django,29,SMS,Moderate,True,False,Basic,10,True,True,False,Local,On-prem,High,3,51790,3,1000,None,Healthcare,10000,Tier 2,True,DigitalOcean,3000,4,senior-heavy,296776
+Travel,High,4,12,Java + Spring Boot,18,Payment,Basic,True,True,Basic,2,False,False,False,Global,Hybrid,Medium,1,42077,2,600,None,Finance,10000,Rural,True,Azure,1000,12,balanced,631913
+Healthcare,Low,4,6,MEAN,5,SMS,Basic,False,False,Basic,8,False,False,True,National,Cloud,Low,0,34981,8,600,Basic,Finance,20000,Rural,False,Azure,1000,6,balanced,391080
+Travel,Low,6,8,Python + Django,29,SMS,Basic,True,True,Basic,2,True,False,False,Global,On-prem,Medium,1,82515,7,600,None,Logistics,0,Rural,True,DigitalOcean,0,8,balanced,785562
+Travel,Low,10,6,MERN,12,SMS,Moderate,True,True,Basic,10,True,False,True,Local,Cloud,High,5,62344,7,1000,Dedicated,Education,10000,Tier 2,True,Azure,1000,6,senior-heavy,1609890
+Travel,Low,5,3,MERN,16,Payment,Advanced,True,True,Basic,4,False,False,False,Global,Cloud,Low,5,49564,4,600,Dedicated,Education,10000,Tier 2,True,None,10000,3,balanced,290916
+Healthcare,High,14,10,Java + Spring Boot,15,SMS,Moderate,True,True,Advanced,3,False,False,False,Global,On-prem,Medium,0,83677,6,600,Basic,Education,20000,Tier 1,False,Azure,3000,10,balanced,1757377
+Travel,Medium,8,3,PHP + Laravel,9,All,Moderate,False,False,Advanced,6,True,True,True,Local,Cloud,Low,0,26536,2,1000,Basic,Education,20000,Tier 1,True,None,10000,3,senior-heavy,535197
+Healthcare,High,13,10,MERN,5,Payment,Advanced,False,True,Basic,1,False,False,False,Global,Cloud,High,2,69389,2,600,Dedicated,Finance,10000,Tier 2,True,Azure,10000,10,balanced,1587952
+Retail,High,11,3,MEAN,23,Payment,Advanced,False,True,Advanced,10,False,False,False,Local,Cloud,Low,4,52682,6,300,Basic,Education,20000,Rural,False,DigitalOcean,1000,3,junior-heavy,222928
+Education,High,8,7,Java + Spring Boot,24,Payment,Advanced,True,False,Advanced,5,False,False,False,National,Cloud,High,0,37337,6,1000,None,Logistics,20000,Tier 1,False,AWS,3000,7,senior-heavy,1471172
+Travel,Medium,7,5,PHP + Laravel,21,All,Advanced,True,True,None,8,False,True,True,National,On-prem,High,1,30589,4,300,Basic,Finance,0,Rural,False,Azure,3000,5,junior-heavy,285017
+Travel,High,14,7,PHP + Laravel,8,All,Advanced,False,True,Advanced,10,False,True,True,National,On-prem,Medium,3,15849,8,300,None,Logistics,5000,Tier 1,False,AWS,5000,7,junior-heavy,717919
+Travel,Low,7,2,MEAN,6,SMS,Moderate,True,True,Basic,5,False,True,True,National,Cloud,Medium,4,97739,2,1000,Dedicated,Healthcare,5000,Tier 2,True,None,3000,2,senior-heavy,312853
+Education,Medium,11,4,PHP + Laravel,11,All,Advanced,True,True,None,5,False,False,True,Local,Hybrid,Medium,3,47926,4,600,None,Retail,20000,Tier 2,True,DigitalOcean,1000,4,balanced,649384
+Healthcare,Low,5,11,Java + Spring Boot,9,None,Basic,True,True,Advanced,3,False,True,False,Global,Cloud,Medium,3,61809,2,600,Basic,Education,5000,Rural,True,Azure,5000,11,balanced,806581
+Healthcare,High,11,6,MERN,17,All,Advanced,True,False,None,1,False,True,False,Local,On-prem,High,0,8779,5,1000,Dedicated,Retail,20000,Rural,False,AWS,10000,6,senior-heavy,1684000
+Retail,High,3,12,MERN,15,SMS,Advanced,True,True,None,9,False,True,True,Local,Hybrid,Medium,2,64266,5,600,Dedicated,Education,5000,Tier 1,False,DigitalOcean,5000,12,balanced,670883
+Travel,Medium,8,6,Python + Django,5,All,Moderate,True,True,Basic,7,True,True,False,Global,Hybrid,High,5,90033,3,1000,Basic,Education,10000,Rural,True,None,1000,6,senior-heavy,1259339
+Healthcare,High,7,7,PHP + Laravel,26,Payment,Basic,False,True,Basic,3,True,False,True,Global,Hybrid,High,0,24184,4,1000,None,Finance,5000,Tier 2,False,None,5000,7,senior-heavy,1042761
+E-commerce,Low,7,12,MEAN,5,All,Advanced,False,True,Advanced,4,True,True,False,Local,Hybrid,Medium,1,65890,8,600,Dedicated,Healthcare,5000,Rural,False,Azure,3000,12,balanced,1335657
+E-commerce,Medium,9,9,MERN,13,SMS,Basic,True,True,None,3,False,False,False,National,Cloud,Medium,3,5532,6,600,Dedicated,Healthcare,5000,Rural,False,None,1000,9,balanced,1004455
+Education,Medium,12,11,MERN,12,All,Advanced,False,True,Advanced,7,True,True,False,National,On-prem,Medium,2,60519,3,1000,Basic,Retail,0,Rural,True,Azure,10000,11,senior-heavy,3189594
+Retail,High,10,9,PHP + Laravel,9,SMS,Moderate,False,False,None,3,False,True,False,Local,On-prem,Medium,5,85060,7,1000,None,Finance,0,Tier 1,True,None,0,9,senior-heavy,1825378
+Retail,High,13,3,MEAN,17,All,Moderate,True,True,Basic,10,True,True,True,Local,Hybrid,Low,3,40428,4,600,Dedicated,Healthcare,20000,Tier 2,True,AWS,10000,3,balanced,644295
+Education,Medium,5,2,PHP + Laravel,30,None,Advanced,False,True,None,10,False,False,False,National,Cloud,High,4,911,3,300,Dedicated,Retail,10000,Rural,True,AWS,10000,2,junior-heavy,82068
+E-commerce,High,5,2,PHP + Laravel,24,Maps,Moderate,True,True,None,7,True,True,False,Global,Hybrid,High,5,78033,6,300,Dedicated,Education,0,Tier 2,False,AWS,3000,2,junior-heavy,65386
+Education,High,4,7,MERN,14,SMS,Basic,True,False,Basic,9,False,True,True,Global,Cloud,Low,4,95696,7,600,Dedicated,Finance,20000,Tier 2,False,None,3000,7,balanced,483730
+Retail,High,12,6,Python + Django,21,SMS,Moderate,True,True,Advanced,5,True,True,True,Local,On-prem,High,0,96711,8,600,None,Logistics,10000,Tier 2,False,AWS,10000,6,balanced,1245747
+Travel,Medium,8,10,Java + Spring Boot,30,None,Moderate,False,False,None,2,False,False,False,Global,Hybrid,High,0,23070,3,600,Basic,Retail,0,Rural,False,None,1000,10,balanced,1179259
+Education,High,15,12,Java + Spring Boot,19,SMS,Advanced,True,False,Advanced,6,True,True,False,National,Cloud,Low,2,4135,4,300,Basic,Logistics,20000,Tier 1,False,Azure,1000,12,junior-heavy,1112828
+E-commerce,Medium,12,6,MEAN,16,SMS,Moderate,True,False,None,2,False,True,True,Local,On-prem,High,0,63313,6,300,None,Education,0,Tier 2,False,DigitalOcean,3000,6,junior-heavy,472781
+E-commerce,Medium,15,4,Python + Django,27,All,Basic,True,False,None,10,True,False,False,Local,Cloud,High,5,97771,4,600,None,Logistics,5000,Tier 2,True,DigitalOcean,0,4,balanced,742863
+Travel,Low,6,6,Java + Spring Boot,9,Payment,Moderate,True,True,Advanced,9,True,True,False,Global,On-prem,Medium,1,92371,8,300,Basic,Logistics,10000,Tier 1,True,AWS,3000,6,junior-heavy,307860
+E-commerce,Medium,7,7,MERN,8,SMS,Basic,True,False,Basic,3,False,False,False,National,Cloud,High,5,69974,2,1000,Basic,Logistics,20000,Tier 1,True,None,10000,7,senior-heavy,1016499
+Healthcare,Low,4,6,PHP + Laravel,13,Maps,Moderate,True,False,Basic,8,False,True,True,National,Cloud,Medium,3,60505,8,600,None,Retail,20000,Tier 2,True,AWS,5000,6,balanced,345774
+Retail,Medium,9,3,Python + Django,23,SMS,Basic,True,True,Basic,7,True,False,True,Global,Hybrid,Medium,3,74395,8,1000,Basic,Logistics,0,Rural,True,Azure,3000,3,senior-heavy,703684
+Retail,Medium,13,3,Java + Spring Boot,22,None,Moderate,True,False,Basic,2,True,False,False,National,Hybrid,High,0,11916,3,1000,None,Logistics,20000,Rural,True,Azure,10000,3,senior-heavy,813322
+Retail,Medium,13,9,MEAN,11,Maps,Moderate,False,False,Advanced,6,True,True,False,Local,On-prem,Low,2,71993,2,300,None,Logistics,10000,Tier 2,True,DigitalOcean,10000,9,junior-heavy,877427
+Travel,Medium,3,8,Python + Django,17,SMS,Advanced,True,True,Basic,3,True,False,False,National,Cloud,Medium,5,16505,3,300,None,Finance,20000,Rural,True,Azure,10000,8,junior-heavy,284262
+Travel,Medium,14,12,Python + Django,30,All,Moderate,True,False,Advanced,7,False,False,False,Local,Cloud,Medium,4,1023,6,600,Basic,Education,5000,Rural,False,None,5000,12,balanced,2017511
+Travel,Medium,11,7,MERN,23,SMS,Advanced,True,True,Advanced,9,False,False,True,Global,Hybrid,Low,1,61975,7,1000,Dedicated,Finance,0,Rural,False,AWS,0,7,senior-heavy,1824878
+Education,High,8,2,Java + Spring Boot,18,Maps,Moderate,False,True,None,10,False,False,True,Global,On-prem,High,1,75135,2,1000,Dedicated,Retail,20000,Rural,True,DigitalOcean,5000,2,senior-heavy,403034
+FinTech,Medium,10,4,MEAN,24,Maps,Moderate,False,True,Advanced,2,True,True,False,National,Cloud,Medium,5,31008,5,300,None,Logistics,0,Tier 1,False,AWS,10000,4,junior-heavy,361935
+Healthcare,High,5,4,Python + Django,28,Payment,Basic,False,True,Advanced,5,True,True,True,National,On-prem,Medium,2,62475,7,1000,Dedicated,Education,20000,Tier 2,False,None,5000,4,senior-heavy,555910
+Education,Medium,7,10,Java + Spring Boot,21,None,Basic,False,False,Advanced,5,False,False,False,Local,On-prem,High,4,51319,5,300,Dedicated,Education,0,Rural,True,DigitalOcean,5000,10,junior-heavy,494344
+E-commerce,Low,13,4,Python + Django,8,All,Basic,False,False,None,5,False,True,True,Local,Hybrid,Low,0,77924,7,1000,None,Logistics,0,Rural,True,AWS,3000,4,senior-heavy,1293703
+Travel,Low,4,4,Java + Spring Boot,14,SMS,Advanced,True,False,Basic,7,False,False,True,Local,On-prem,Low,3,50983,4,1000,None,Retail,5000,Tier 2,True,None,5000,4,senior-heavy,455567
+Education,Low,4,5,MEAN,22,SMS,Basic,True,False,Advanced,5,True,True,True,Local,Hybrid,High,2,58492,2,600,Basic,Education,20000,Rural,True,AWS,10000,5,balanced,307739
+Retail,Low,13,6,PHP + Laravel,27,SMS,Moderate,False,False,Advanced,2,True,True,False,Global,On-prem,Low,4,70213,4,600,Basic,Retail,10000,Tier 2,True,AWS,1000,6,balanced,1267107
+FinTech,High,8,7,MEAN,10,All,Basic,False,True,Basic,7,True,False,False,Local,Hybrid,Medium,5,24883,3,1000,None,Education,20000,Tier 1,True,None,0,7,senior-heavy,1445034
+Education,Low,9,10,MERN,15,None,Moderate,True,False,None,4,False,True,True,Local,Cloud,High,1,64130,7,300,None,Healthcare,20000,Rural,True,Azure,3000,10,junior-heavy,684942
+FinTech,Low,14,4,Python + Django,24,Payment,Advanced,True,True,None,8,True,True,True,National,On-prem,High,5,52742,4,1000,None,Logistics,5000,Rural,True,DigitalOcean,0,4,senior-heavy,1364490
+E-commerce,Medium,15,2,MEAN,29,SMS,Basic,False,True,Basic,4,True,True,True,Global,Hybrid,Medium,1,2098,5,300,None,Finance,5000,Tier 1,True,AWS,10000,2,junior-heavy,219476
+Education,High,14,11,MEAN,11,Payment,Advanced,False,False,Basic,4,True,True,True,Global,On-prem,High,0,82257,8,1000,Basic,Retail,20000,Tier 2,True,Azure,3000,11,senior-heavy,3879388
+Retail,High,6,10,MEAN,19,Payment,Moderate,True,True,None,3,False,False,True,Local,Hybrid,Low,0,84573,4,300,Basic,Education,10000,Tier 2,False,DigitalOcean,0,10,junior-heavy,485207
+Healthcare,Low,12,2,MERN,20,All,Basic,True,True,Advanced,8,False,False,True,Global,Hybrid,Medium,1,14485,4,600,None,Finance,0,Tier 1,False,Azure,0,2,balanced,386478
+Education,Low,9,3,MEAN,24,SMS,Basic,False,False,None,8,True,False,False,Local,On-prem,Low,0,90779,6,300,None,Retail,20000,Tier 1,True,None,5000,3,junior-heavy,185854
+Retail,Low,10,4,PHP + Laravel,10,All,Advanced,True,True,Basic,9,False,True,False,National,On-prem,Low,5,56163,7,600,None,Education,5000,Tier 2,False,Azure,3000,4,balanced,656487
+E-commerce,Medium,12,11,PHP + Laravel,6,SMS,Advanced,False,False,Advanced,2,False,False,True,Local,Hybrid,Low,5,95966,5,300,None,Education,20000,Tier 2,False,Azure,0,11,junior-heavy,1106936
+Education,High,13,2,PHP + Laravel,5,SMS,Moderate,True,False,None,6,False,True,True,National,Hybrid,Medium,4,4337,4,300,Basic,Retail,10000,Rural,True,AWS,5000,2,junior-heavy,175260
+E-commerce,Medium,12,2,Java + Spring Boot,19,All,Basic,False,False,None,9,True,True,True,National,Cloud,High,0,85120,5,600,Dedicated,Logistics,10000,Rural,True,Azure,10000,2,balanced,417960
+E-commerce,Medium,8,6,Java + Spring Boot,19,SMS,Advanced,True,False,Advanced,9,False,False,False,Global,Hybrid,Low,1,60064,2,600,None,Healthcare,20000,Tier 1,False,AWS,10000,6,balanced,685668
+Healthcare,High,4,6,MERN,14,SMS,Advanced,True,False,Basic,7,False,True,False,Local,Cloud,Low,1,68157,7,300,Basic,Healthcare,5000,Rural,False,DigitalOcean,0,6,junior-heavy,171330
+Retail,Low,10,12,Java + Spring Boot,10,Maps,Basic,False,False,Basic,1,True,False,False,National,Cloud,High,1,93348,6,1000,Basic,Education,20000,Tier 1,True,Azure,10000,12,senior-heavy,2872303
+FinTech,Low,6,2,MEAN,22,None,Advanced,False,False,None,6,False,True,False,Local,Cloud,Medium,3,19105,5,300,Basic,Education,5000,Tier 1,False,DigitalOcean,3000,2,junior-heavy,92577
+E-commerce,High,10,11,Python + Django,6,Payment,Advanced,True,False,None,7,True,False,False,Local,On-prem,Low,4,84108,3,600,Dedicated,Logistics,20000,Tier 1,False,Azure,1000,11,balanced,1461457
+Education,Low,3,10,Python + Django,15,All,Advanced,True,False,Basic,3,False,False,False,National,Cloud,Medium,2,46102,4,300,Basic,Logistics,0,Tier 1,True,None,5000,10,junior-heavy,307603
+Education,High,14,9,Python + Django,9,All,Advanced,True,True,None,5,False,False,True,Global,On-prem,Low,0,53718,7,600,Basic,Healthcare,5000,Tier 1,False,Azure,3000,9,balanced,1987230
+FinTech,High,6,8,Java + Spring Boot,20,All,Advanced,False,True,None,1,True,False,False,Global,Hybrid,Medium,0,85746,7,300,Basic,Healthcare,20000,Tier 1,False,Azure,3000,8,junior-heavy,312775
+FinTech,High,3,6,Python + Django,23,SMS,Moderate,False,True,Basic,9,True,False,True,Global,Cloud,Low,2,60479,7,300,None,Retail,0,Tier 1,True,DigitalOcean,5000,6,junior-heavy,162126
+Retail,High,8,12,MERN,21,Payment,Advanced,True,True,Advanced,3,False,False,False,National,Hybrid,High,5,47566,2,600,Dedicated,Logistics,0,Tier 2,True,AWS,3000,12,balanced,1258816
+Healthcare,Low,5,6,MEAN,9,All,Basic,True,True,Basic,8,True,True,True,Local,On-prem,Medium,2,90627,4,1000,None,Healthcare,20000,Rural,False,Azure,3000,6,senior-heavy,708328
+Travel,Low,14,2,MEAN,14,Payment,Basic,True,True,Basic,2,True,True,False,National,Cloud,Low,0,4348,8,600,Dedicated,Logistics,5000,Rural,True,None,0,2,balanced,337696
+E-commerce,Low,4,2,PHP + Laravel,11,All,Basic,True,False,None,2,True,False,False,National,Cloud,High,5,80391,3,600,Dedicated,Logistics,10000,Tier 1,True,AWS,0,2,balanced,129129
+Retail,Low,11,5,MERN,11,All,Advanced,False,False,Advanced,10,True,False,True,Local,On-prem,Medium,3,28135,6,300,None,Healthcare,5000,Tier 1,False,AWS,3000,5,junior-heavy,463684
+Travel,Medium,10,10,PHP + Laravel,28,None,Basic,False,False,None,7,False,False,False,Global,On-prem,Low,4,53433,4,300,Basic,Education,20000,Tier 1,False,DigitalOcean,1000,10,junior-heavy,796887
+Retail,High,5,12,MERN,8,Payment,Moderate,False,True,Advanced,3,True,False,True,National,Cloud,High,3,16140,3,300,Basic,Healthcare,0,Tier 2,False,None,5000,12,junior-heavy,459897
+Retail,Medium,8,12,MEAN,29,SMS,Basic,True,False,Basic,8,True,True,True,Local,Hybrid,Low,0,65341,7,600,None,Education,20000,Tier 2,False,Azure,10000,12,balanced,1751977
+Retail,Medium,7,11,Python + Django,11,Maps,Advanced,False,False,Advanced,5,False,True,True,National,Cloud,Medium,3,41279,8,1000,Basic,Healthcare,0,Tier 2,True,AWS,0,11,senior-heavy,1887848
+Healthcare,Medium,5,12,Python + Django,20,None,Advanced,False,False,Basic,9,True,True,False,National,On-prem,High,3,80913,7,1000,Basic,Retail,5000,Tier 2,True,AWS,3000,12,senior-heavy,1424411
+Retail,Low,12,4,Java + Spring Boot,17,None,Moderate,False,False,Basic,6,True,True,True,Local,Hybrid,Medium,4,11183,7,300,None,Retail,10000,Tier 1,False,Azure,3000,4,junior-heavy,397690
+Education,High,3,7,PHP + Laravel,18,Maps,Basic,False,True,Basic,7,False,False,True,National,Cloud,High,5,27038,4,1000,Basic,Logistics,20000,Rural,False,Azure,0,7,senior-heavy,536517
+E-commerce,High,12,7,MEAN,14,Maps,Basic,False,False,None,10,True,True,False,National,Cloud,High,4,62344,5,600,None,Retail,5000,Tier 1,False,DigitalOcean,5000,7,balanced,1204839
+FinTech,High,9,10,PHP + Laravel,19,All,Basic,True,True,Advanced,8,True,False,False,Global,Hybrid,High,3,74252,7,1000,Dedicated,Finance,5000,Rural,True,DigitalOcean,3000,10,senior-heavy,2046687
+Education,Medium,10,5,MERN,25,Payment,Moderate,False,False,Advanced,3,False,True,False,Local,Cloud,Low,1,3681,3,300,Basic,Healthcare,10000,Tier 2,False,None,1000,5,junior-heavy,409738
+FinTech,Medium,13,5,PHP + Laravel,10,None,Advanced,False,True,None,2,False,False,True,National,On-prem,High,5,11886,5,300,Dedicated,Education,10000,Tier 1,True,AWS,1000,5,junior-heavy,401630
+E-commerce,Low,11,11,PHP + Laravel,8,Maps,Moderate,False,True,Basic,4,True,True,True,Local,On-prem,Medium,3,33382,8,1000,Dedicated,Finance,10000,Tier 2,False,AWS,10000,11,senior-heavy,2917150
+Healthcare,Medium,8,8,Python + Django,27,Maps,Moderate,True,True,Advanced,1,True,False,False,National,Hybrid,High,2,89866,2,1000,Dedicated,Education,5000,Tier 2,False,AWS,5000,8,senior-heavy,1794928
+Healthcare,Medium,9,6,Java + Spring Boot,30,SMS,Basic,False,True,Basic,8,False,False,False,Local,Cloud,High,2,66416,2,600,Basic,Healthcare,5000,Rural,False,None,0,6,balanced,695526
+Healthcare,Low,14,2,Python + Django,11,Maps,Moderate,True,True,None,4,True,False,False,National,On-prem,High,1,34217,3,300,Dedicated,Logistics,20000,Tier 2,False,Azure,1000,2,junior-heavy,241213
+Retail,Low,4,7,MERN,5,All,Advanced,True,True,Basic,4,False,True,True,National,Hybrid,Medium,4,34149,3,600,None,Retail,20000,Tier 1,True,AWS,1000,7,balanced,476140
+Travel,Low,14,8,MEAN,30,Maps,Moderate,False,False,None,7,True,True,False,Global,Hybrid,Low,3,23691,5,1000,None,Finance,20000,Tier 2,False,Azure,5000,8,senior-heavy,2265050
+Education,Low,12,5,Java + Spring Boot,27,SMS,Advanced,True,False,Advanced,7,False,True,True,Global,Cloud,Low,2,30831,5,600,Basic,Logistics,20000,Rural,True,AWS,3000,5,balanced,731312
+Travel,Medium,7,11,MEAN,22,None,Advanced,True,False,None,9,False,False,False,Local,Cloud,Medium,5,69573,5,1000,None,Retail,10000,Tier 1,False,AWS,5000,11,senior-heavy,2182935
+FinTech,High,5,6,Java + Spring Boot,21,Maps,Moderate,True,False,Advanced,8,True,False,True,Local,Cloud,Low,1,24054,2,600,Basic,Retail,20000,Tier 1,False,None,3000,6,balanced,418015
+Retail,Medium,4,2,Python + Django,20,None,Advanced,True,True,Basic,2,True,False,True,Local,Hybrid,High,2,73875,7,600,Dedicated,Education,10000,Rural,True,Azure,5000,2,balanced,156438
+E-commerce,Medium,9,5,MERN,17,Maps,Advanced,True,False,None,1,True,False,False,National,Hybrid,Medium,4,86296,2,300,Basic,Finance,0,Rural,False,DigitalOcean,5000,5,junior-heavy,387992
+Travel,Medium,14,11,Java + Spring Boot,30,None,Advanced,True,False,None,7,False,True,True,National,Cloud,Low,1,21406,5,1000,Basic,Retail,5000,Rural,True,AWS,1000,11,senior-heavy,4068840
+E-commerce,Medium,7,8,PHP + Laravel,11,SMS,Moderate,False,False,Basic,10,False,True,False,National,Hybrid,Low,3,82715,5,600,None,Finance,5000,Rural,False,None,3000,8,balanced,763297
+Travel,High,13,12,MERN,14,SMS,Moderate,True,False,Basic,3,True,False,True,Global,On-prem,Medium,4,6305,6,300,None,Finance,20000,Rural,True,None,1000,12,junior-heavy,1126263
+Retail,Low,9,9,PHP + Laravel,5,None,Advanced,False,True,None,7,True,True,False,Global,On-prem,Medium,4,94958,5,300,Dedicated,Healthcare,10000,Rural,False,DigitalOcean,10000,9,junior-heavy,629639
+Retail,Medium,15,5,MERN,18,All,Basic,True,False,None,1,True,False,False,Global,On-prem,High,5,78940,7,300,Basic,Retail,0,Rural,False,None,1000,5,junior-heavy,574405
+E-commerce,Low,15,3,MEAN,5,Payment,Moderate,True,True,Basic,9,True,True,False,National,Cloud,Medium,3,2909,2,600,None,Education,5000,Rural,False,None,1000,3,balanced,515041
+Retail,Medium,10,9,MERN,15,None,Basic,False,False,Basic,10,False,True,False,National,On-prem,High,4,95026,6,300,Dedicated,Healthcare,5000,Tier 1,True,AWS,10000,9,junior-heavy,641138
+Travel,Medium,9,7,Python + Django,8,SMS,Advanced,False,False,Advanced,7,True,True,False,Global,Cloud,Medium,2,57474,3,1000,Dedicated,Education,0,Rural,False,None,10000,7,senior-heavy,1393595
+Healthcare,High,5,8,MEAN,14,None,Advanced,False,True,None,4,True,False,True,National,On-prem,Medium,1,27500,6,600,None,Finance,10000,Tier 2,False,DigitalOcean,5000,8,balanced,675328
+FinTech,Medium,13,4,MERN,24,Payment,Basic,True,False,Basic,6,False,True,False,Local,Hybrid,High,4,87800,2,300,Dedicated,Finance,0,Tier 2,False,AWS,10000,4,junior-heavy,449388
+Healthcare,High,4,11,MERN,11,Maps,Basic,False,False,Advanced,8,True,True,False,National,Cloud,Low,1,57604,5,1000,None,Education,0,Tier 2,False,DigitalOcean,0,11,senior-heavy,1019228
+Education,Medium,11,3,MEAN,9,All,Moderate,True,True,Basic,7,False,False,False,Local,On-prem,Low,0,94110,8,300,Dedicated,Finance,10000,Tier 1,False,DigitalOcean,3000,3,junior-heavy,269023
+Travel,High,9,8,MEAN,23,None,Advanced,False,False,Basic,9,False,False,False,Local,On-prem,High,4,19299,7,300,Basic,Healthcare,20000,Rural,True,None,0,8,junior-heavy,571300
+E-commerce,Low,14,12,PHP + Laravel,15,SMS,Advanced,True,False,None,2,False,False,True,Local,Cloud,High,4,33957,3,600,Basic,Healthcare,5000,Rural,True,AWS,5000,12,balanced,2744575
+Travel,Low,8,12,Python + Django,14,All,Advanced,True,False,Basic,4,True,False,False,National,Hybrid,High,4,88187,3,600,Dedicated,Healthcare,10000,Rural,True,AWS,10000,12,balanced,1256816
+Healthcare,High,8,11,Python + Django,18,None,Basic,True,False,None,8,True,False,True,National,Hybrid,High,3,77151,6,1000,Dedicated,Healthcare,10000,Tier 2,False,None,1000,11,senior-heavy,2019083
+Healthcare,Medium,10,9,Python + Django,9,All,Advanced,True,True,Basic,8,True,True,False,Local,Hybrid,Medium,0,15892,4,1000,Dedicated,Retail,5000,Tier 1,True,AWS,5000,9,senior-heavy,1842709
+Healthcare,Low,8,7,PHP + Laravel,18,None,Moderate,False,True,None,8,True,True,False,Local,Cloud,Medium,3,75162,4,600,Dedicated,Healthcare,10000,Tier 2,False,None,3000,7,balanced,804373
+Travel,Medium,14,4,MEAN,28,Maps,Basic,False,False,None,7,False,True,False,Global,On-prem,High,0,21757,7,1000,None,Logistics,20000,Rural,False,AWS,1000,4,senior-heavy,1450267
+Retail,Low,13,3,Python + Django,21,None,Basic,True,True,Basic,4,True,False,True,Global,Hybrid,Medium,3,77237,2,1000,Basic,Finance,0,Tier 2,False,Azure,1000,3,senior-heavy,1061541
+E-commerce,Low,9,10,PHP + Laravel,10,Maps,Basic,True,False,None,3,False,False,True,Local,Hybrid,Medium,1,3611,7,300,None,Retail,20000,Tier 2,True,DigitalOcean,3000,10,junior-heavy,613648
+E-commerce,Low,5,7,MEAN,12,All,Advanced,True,False,Advanced,9,False,True,False,Local,On-prem,Medium,4,53406,2,600,Basic,Finance,20000,Tier 2,True,AWS,3000,7,balanced,616995
+Travel,Low,7,11,Java + Spring Boot,23,SMS,Moderate,True,True,None,6,True,True,False,Global,On-prem,Low,0,60952,8,1000,Dedicated,Retail,5000,Rural,True,AWS,0,11,senior-heavy,1962670
+Education,Medium,3,6,MEAN,23,All,Moderate,True,True,Advanced,9,True,False,True,National,Hybrid,Low,1,95086,6,600,Basic,Healthcare,10000,Tier 1,False,DigitalOcean,10000,6,balanced,364750
+FinTech,Medium,13,9,MEAN,19,All,Moderate,True,True,Advanced,1,False,True,True,Global,Cloud,Medium,4,91340,7,600,Basic,Healthcare,5000,Rural,True,AWS,3000,9,balanced,1757545
+Education,High,11,12,Java + Spring Boot,17,Payment,Advanced,True,True,Basic,6,True,False,True,Local,Hybrid,Low,2,89251,7,300,Basic,Education,0,Tier 1,False,Azure,5000,12,junior-heavy,923003
+Travel,High,6,7,PHP + Laravel,11,None,Basic,False,True,Basic,10,False,True,True,Global,Hybrid,High,5,89491,6,600,Dedicated,Education,10000,Tier 1,True,AWS,0,7,balanced,591003
+Travel,Low,5,11,PHP + Laravel,24,Maps,Advanced,False,True,Basic,1,False,False,False,National,Cloud,High,4,61206,5,600,Basic,Logistics,10000,Tier 1,True,AWS,1000,11,balanced,692275
+Healthcare,Medium,7,10,MERN,23,None,Advanced,True,False,None,4,True,True,False,National,Cloud,High,5,12728,2,600,Basic,Healthcare,10000,Tier 1,False,DigitalOcean,5000,10,balanced,838430
+FinTech,High,6,9,MEAN,7,All,Advanced,False,True,Advanced,8,True,True,True,Local,On-prem,Medium,5,8573,8,300,None,Finance,10000,Tier 2,True,DigitalOcean,1000,9,junior-heavy,444100
+Retail,Low,12,8,Java + Spring Boot,17,SMS,Basic,False,True,Advanced,10,True,False,False,National,On-prem,High,4,13324,4,1000,Dedicated,Finance,0,Tier 2,False,Azure,0,8,senior-heavy,2367606
+Healthcare,High,4,2,MEAN,25,All,Moderate,False,False,Basic,10,False,True,True,Local,Cloud,Low,1,40900,6,300,Basic,Logistics,0,Rural,False,DigitalOcean,10000,2,junior-heavy,79144
+FinTech,Medium,12,4,Java + Spring Boot,5,All,Advanced,True,True,None,9,True,False,False,Local,Cloud,High,1,9015,4,1000,None,Healthcare,20000,Rural,False,DigitalOcean,1000,4,senior-heavy,1051347
+Healthcare,Low,12,7,Python + Django,30,None,Moderate,True,True,Advanced,4,True,False,True,Local,On-prem,High,2,97053,5,1000,None,Healthcare,10000,Tier 1,True,DigitalOcean,10000,7,senior-heavy,1961697
+Education,Low,3,7,PHP + Laravel,29,Maps,Basic,True,True,None,5,True,True,False,Global,Cloud,Medium,4,32289,3,300,None,Finance,0,Tier 1,False,AWS,0,7,junior-heavy,125704
+Healthcare,Medium,3,4,Python + Django,12,Maps,Moderate,True,False,Advanced,2,True,True,True,Local,Cloud,High,3,91060,4,1000,Basic,Logistics,0,Tier 2,True,AWS,5000,4,senior-heavy,279840
+FinTech,Low,15,11,MERN,25,Maps,Basic,False,True,Advanced,2,False,True,True,Global,On-prem,High,4,49105,5,1000,Dedicated,Healthcare,10000,Tier 1,False,DigitalOcean,1000,11,senior-heavy,4256464
+Education,High,11,9,PHP + Laravel,25,None,Basic,True,True,Basic,4,False,True,False,National,On-prem,High,1,49084,4,1000,Dedicated,Finance,20000,Tier 1,True,DigitalOcean,5000,9,senior-heavy,2147300
+Retail,Medium,10,7,Python + Django,19,SMS,Moderate,False,False,Basic,6,False,False,True,Local,On-prem,Low,2,84637,2,1000,Basic,Finance,0,Tier 2,True,DigitalOcean,1000,7,senior-heavy,1602848
+Healthcare,Medium,6,3,MEAN,26,Maps,Moderate,False,False,None,10,True,False,True,National,On-prem,Medium,3,53233,8,300,Dedicated,Finance,10000,Tier 2,True,None,0,3,junior-heavy,111452
+Retail,Medium,6,5,Python + Django,15,None,Moderate,True,False,Advanced,7,True,False,False,Global,Cloud,Medium,1,75745,8,300,None,Retail,5000,Rural,True,None,5000,5,junior-heavy,240843
+Travel,Medium,15,7,PHP + Laravel,14,Maps,Advanced,True,True,None,3,False,False,False,Local,On-prem,Low,4,50700,3,1000,Basic,Finance,5000,Tier 2,False,DigitalOcean,3000,7,senior-heavy,2377251
+Travel,High,4,3,Python + Django,5,Payment,Basic,True,False,Basic,4,True,False,True,National,Cloud,Medium,4,1497,3,300,Basic,Healthcare,5000,Tier 2,True,AWS,10000,3,junior-heavy,98534
+Healthcare,Low,5,8,MEAN,14,SMS,Advanced,False,True,Advanced,10,False,True,False,National,Cloud,Low,1,58472,2,1000,Basic,Logistics,0,Tier 1,False,None,5000,8,senior-heavy,925149
+Education,Medium,10,11,Java + Spring Boot,17,All,Basic,False,True,None,10,False,False,False,Global,Cloud,High,4,12571,5,600,Dedicated,Finance,0,Tier 1,True,DigitalOcean,0,11,balanced,1401419
+Education,High,13,6,MERN,16,None,Basic,False,False,Basic,3,False,True,True,National,Cloud,Low,5,91077,7,1000,Dedicated,Healthcare,5000,Tier 2,False,None,0,6,senior-heavy,2088424
+Healthcare,Medium,6,2,Python + Django,20,SMS,Basic,True,True,Advanced,8,True,False,False,Local,Cloud,Low,4,13224,3,600,Basic,Finance,10000,Rural,False,Azure,0,2,balanced,150865
+Healthcare,Low,4,2,MERN,26,All,Basic,False,True,Advanced,9,True,False,False,National,Cloud,High,0,6428,8,1000,Basic,Education,5000,Tier 1,False,Azure,3000,2,senior-heavy,191911
+FinTech,Low,6,2,MERN,12,None,Advanced,True,True,None,7,True,False,False,Global,Hybrid,Low,4,27197,6,300,Basic,Healthcare,0,Tier 1,True,Azure,5000,2,junior-heavy,111117
+FinTech,Low,4,7,Python + Django,11,SMS,Basic,True,False,Advanced,10,False,True,True,Local,On-prem,Medium,4,65530,2,600,Dedicated,Logistics,0,Rural,True,DigitalOcean,1000,7,balanced,380688
+Travel,High,4,7,Java + Spring Boot,26,SMS,Basic,False,True,Advanced,10,False,False,True,Global,Hybrid,High,0,30538,2,1000,Dedicated,Finance,5000,Tier 2,True,None,5000,7,senior-heavy,644729
+Education,Medium,15,11,MEAN,9,SMS,Basic,True,True,Advanced,10,False,False,True,National,On-prem,High,0,68321,8,300,Basic,Retail,0,Tier 1,True,DigitalOcean,0,11,junior-heavy,985569
+Travel,Low,8,5,MEAN,24,SMS,Advanced,False,True,Basic,1,True,False,True,Local,Cloud,High,1,26817,3,300,None,Education,0,Rural,True,Azure,10000,5,junior-heavy,380772
+Healthcare,Low,11,8,Python + Django,10,All,Basic,False,False,Advanced,8,True,False,False,Local,On-prem,Medium,3,22039,5,300,Basic,Healthcare,10000,Rural,False,Azure,5000,8,junior-heavy,577600
+FinTech,High,15,2,PHP + Laravel,9,All,Advanced,True,False,Basic,8,False,False,False,National,Hybrid,High,3,9479,4,600,None,Healthcare,20000,Tier 1,True,Azure,5000,2,balanced,507628
+Education,Medium,3,10,Java + Spring Boot,17,SMS,Moderate,True,False,None,2,False,True,True,National,On-prem,High,2,66845,7,300,Basic,Retail,20000,Rural,True,None,3000,10,junior-heavy,250931
+FinTech,High,9,5,MERN,27,Payment,Moderate,False,True,Basic,4,True,True,True,Local,Hybrid,High,3,52172,7,1000,Dedicated,Finance,20000,Rural,True,None,1000,5,senior-heavy,876760
+Travel,Medium,5,6,MERN,8,All,Moderate,True,False,Advanced,4,False,False,True,Local,On-prem,Low,0,9204,8,600,Dedicated,Healthcare,20000,Rural,False,DigitalOcean,3000,6,balanced,470643
+Healthcare,Low,14,4,Python + Django,10,All,Basic,False,True,None,4,True,True,True,National,On-prem,Medium,5,81894,2,600,Dedicated,Education,10000,Tier 1,False,AWS,1000,4,balanced,696378
+Healthcare,Medium,9,6,Python + Django,26,None,Basic,True,False,None,10,True,True,True,Global,Cloud,Medium,4,68217,8,300,Basic,Healthcare,10000,Tier 2,False,None,0,6,junior-heavy,315787
+FinTech,High,8,12,Python + Django,17,All,Basic,False,False,None,1,False,False,True,Local,Hybrid,Low,4,36680,7,600,None,Retail,10000,Tier 2,False,None,3000,12,balanced,1545293
+E-commerce,High,13,2,Java + Spring Boot,26,SMS,Basic,False,False,Advanced,10,True,False,False,National,Hybrid,High,0,96293,5,300,Basic,Logistics,0,Tier 1,True,AWS,3000,2,junior-heavy,195983
+Education,Low,5,3,Python + Django,26,All,Basic,True,True,None,2,True,False,True,Local,On-prem,Medium,2,28935,7,600,Basic,Healthcare,20000,Rural,True,Azure,3000,3,balanced,208209
+Retail,High,11,9,MERN,25,Maps,Moderate,False,False,None,4,False,True,False,Local,Cloud,Low,2,97119,6,1000,None,Finance,10000,Rural,False,Azure,0,9,senior-heavy,2622922
+Retail,Low,8,11,Python + Django,18,Maps,Moderate,True,True,None,7,True,False,False,Local,On-prem,Low,3,89176,5,600,None,Logistics,10000,Tier 2,True,AWS,0,11,balanced,1024861
+Travel,High,12,6,Python + Django,25,Payment,Moderate,False,False,None,6,True,True,True,Global,Hybrid,Low,1,63948,7,600,Basic,Retail,0,Rural,True,AWS,10000,6,balanced,969358
+Education,Medium,11,7,MERN,21,Maps,Moderate,True,False,None,3,False,True,False,National,Hybrid,Low,4,18080,5,600,Dedicated,Healthcare,20000,Tier 2,True,Azure,5000,7,balanced,1335099
+Retail,Low,6,5,MEAN,17,SMS,Advanced,True,True,None,6,False,True,True,Local,Hybrid,High,2,77827,5,1000,None,Healthcare,10000,Tier 1,True,AWS,0,5,senior-heavy,764056
+Education,High,6,9,MERN,29,SMS,Advanced,False,False,Advanced,8,False,True,True,Local,Cloud,Low,3,84120,7,600,Dedicated,Education,5000,Tier 1,False,DigitalOcean,3000,9,balanced,827561
+Travel,High,14,3,Python + Django,14,All,Basic,True,False,None,9,True,False,True,National,Hybrid,High,4,64086,2,1000,Dedicated,Logistics,5000,Rural,True,Azure,10000,3,senior-heavy,962437
+Education,Medium,13,4,MERN,6,Payment,Advanced,True,True,None,9,False,True,True,Local,Hybrid,Medium,2,71409,3,300,Basic,Finance,5000,Tier 1,False,AWS,10000,4,junior-heavy,330796
+Education,High,11,12,Java + Spring Boot,21,Maps,Advanced,True,True,Advanced,1,True,True,True,Local,On-prem,Low,1,78974,6,600,None,Logistics,20000,Tier 2,False,Azure,10000,12,balanced,1705345
+Travel,Low,14,8,Python + Django,19,None,Moderate,False,True,Advanced,4,True,False,True,Global,On-prem,High,5,84954,8,1000,Dedicated,Logistics,10000,Tier 1,False,Azure,0,8,senior-heavy,2360863
+E-commerce,High,8,8,MERN,26,All,Moderate,True,False,Advanced,2,False,False,False,Local,Cloud,Medium,0,12888,5,600,None,Healthcare,5000,Tier 1,True,Azure,0,8,balanced,748682
+FinTech,High,11,6,PHP + Laravel,14,All,Moderate,True,True,None,6,False,True,False,Global,Hybrid,High,4,77987,8,1000,Basic,Healthcare,20000,Rural,True,DigitalOcean,10000,6,senior-heavy,1360747
+Retail,High,3,10,Java + Spring Boot,6,Maps,Advanced,True,False,Advanced,8,True,False,False,National,Hybrid,Medium,2,56118,6,1000,Dedicated,Education,5000,Tier 2,True,DigitalOcean,1000,10,senior-heavy,612270
+E-commerce,Low,9,3,PHP + Laravel,6,None,Advanced,False,False,None,7,True,False,False,Global,Hybrid,High,4,91522,2,600,Basic,Finance,0,Rural,True,AWS,0,3,balanced,407002
+Travel,High,14,10,PHP + Laravel,6,All,Moderate,True,True,None,2,False,True,False,Local,On-prem,Medium,3,22395,4,600,None,Retail,5000,Rural,True,AWS,3000,10,balanced,2349397
+Travel,High,7,9,PHP + Laravel,17,Payment,Moderate,True,False,Advanced,8,True,False,True,Global,On-prem,Medium,2,46435,2,600,None,Retail,10000,Rural,True,None,3000,9,balanced,812337
+Retail,High,8,3,MEAN,18,None,Moderate,True,True,Advanced,5,True,False,False,National,On-prem,Medium,3,23928,6,300,Basic,Finance,20000,Tier 2,False,Azure,5000,3,junior-heavy,179672
+Travel,Low,5,8,MERN,11,Maps,Basic,True,False,Basic,6,True,True,True,National,Hybrid,Medium,0,55243,5,600,Dedicated,Healthcare,10000,Rural,True,DigitalOcean,0,8,balanced,647445
+E-commerce,Low,15,10,MEAN,9,Maps,Advanced,True,True,None,6,False,True,False,National,On-prem,Medium,3,10878,8,600,Basic,Education,5000,Rural,True,Azure,5000,10,balanced,1819072
+Education,Low,6,3,Python + Django,27,None,Advanced,True,True,Advanced,3,True,True,True,National,Cloud,Medium,1,19213,5,600,None,Logistics,5000,Tier 1,True,AWS,3000,3,balanced,280919
+Education,Medium,9,10,MERN,21,SMS,Advanced,True,False,None,5,False,False,False,Global,On-prem,Low,2,6283,3,600,None,Finance,5000,Tier 1,False,Azure,3000,10,balanced,1148042
+FinTech,Medium,7,6,Java + Spring Boot,15,Maps,Basic,True,True,Advanced,9,True,False,False,Global,On-prem,High,4,69369,6,600,Basic,Education,0,Rural,False,Azure,10000,6,balanced,628139
+Retail,Low,12,3,MERN,23,Payment,Basic,False,True,None,9,False,False,False,Local,Hybrid,High,1,5792,3,600,None,Healthcare,5000,Rural,False,DigitalOcean,0,3,balanced,529095
+Education,High,8,12,PHP + Laravel,30,None,Basic,False,True,Basic,1,True,True,False,National,Hybrid,High,4,9878,3,600,Basic,Logistics,20000,Tier 2,False,None,0,12,balanced,1128981
+Healthcare,High,12,5,MERN,30,All,Moderate,False,False,None,5,False,True,True,Local,Cloud,High,1,38302,2,600,Dedicated,Education,0,Tier 2,True,DigitalOcean,1000,5,balanced,728458
+E-commerce,High,15,12,Java + Spring Boot,25,All,Moderate,False,True,Advanced,9,False,True,False,Global,On-prem,Medium,0,82095,8,300,None,Retail,5000,Tier 1,False,Azure,1000,12,junior-heavy,1281924
+Travel,Medium,7,10,Java + Spring Boot,25,All,Advanced,True,False,None,6,False,True,False,Local,On-prem,Low,5,95245,5,300,Basic,Education,0,Tier 2,True,None,10000,10,junior-heavy,640140
+Travel,Low,5,4,Java + Spring Boot,5,Maps,Basic,True,False,Advanced,10,True,True,True,Local,On-prem,Low,3,84607,5,600,None,Logistics,5000,Tier 1,True,AWS,1000,4,balanced,294256
+Travel,Low,9,2,MEAN,12,None,Moderate,True,True,None,2,False,True,True,Local,On-prem,High,3,21433,4,600,Basic,Healthcare,0,Tier 1,True,AWS,0,2,balanced,274517
+E-commerce,Low,11,6,PHP + Laravel,14,None,Advanced,False,True,None,4,True,True,False,National,Cloud,Medium,5,37647,3,1000,Dedicated,Healthcare,0,Rural,True,None,10000,6,senior-heavy,1298026
+Retail,Medium,5,5,MERN,16,None,Basic,True,True,Basic,9,False,True,False,Local,Hybrid,High,2,81938,8,300,Basic,Retail,10000,Tier 1,False,None,0,5,junior-heavy,173761
+Healthcare,High,13,6,MEAN,15,Payment,Moderate,False,False,None,2,False,False,True,Local,On-prem,Low,1,50515,4,600,Basic,Healthcare,0,Tier 2,False,None,0,6,balanced,1230048
+Retail,Medium,12,7,PHP + Laravel,22,SMS,Advanced,True,False,None,10,False,True,True,Local,On-prem,Low,1,2298,4,1000,Dedicated,Healthcare,5000,Tier 1,True,AWS,1000,7,senior-heavy,1866089
+Retail,Medium,8,4,MEAN,11,Payment,Basic,True,True,Advanced,3,False,True,False,National,Cloud,High,0,86917,6,600,None,Healthcare,20000,Rural,True,AWS,3000,4,balanced,412438
+Retail,Medium,5,4,MEAN,29,Payment,Moderate,True,False,Basic,7,False,False,True,National,Cloud,Low,0,84257,2,600,Dedicated,Education,5000,Rural,True,AWS,0,4,balanced,236942
+Retail,Medium,9,12,MEAN,18,Payment,Moderate,True,False,None,4,False,True,True,National,Cloud,High,4,79359,8,600,None,Healthcare,10000,Tier 2,False,None,5000,12,balanced,1821132
+E-commerce,Low,9,2,MERN,16,All,Moderate,True,True,Basic,3,True,True,True,Global,Cloud,Medium,1,72361,3,300,Dedicated,Finance,20000,Tier 1,False,AWS,3000,2,junior-heavy,134358
+FinTech,Low,12,2,Java + Spring Boot,5,Maps,Moderate,False,True,Basic,7,False,True,True,National,On-prem,High,4,13288,6,1000,None,Finance,20000,Rural,False,None,10000,2,senior-heavy,493178
+E-commerce,High,12,6,MERN,27,Payment,Basic,True,True,Advanced,9,False,False,True,National,On-prem,Medium,4,56529,2,300,Dedicated,Healthcare,5000,Tier 1,True,AWS,1000,6,junior-heavy,545978
+Healthcare,Medium,5,12,PHP + Laravel,30,None,Moderate,True,False,Basic,3,False,True,True,National,Hybrid,Medium,2,11745,2,1000,None,Healthcare,0,Tier 2,False,DigitalOcean,5000,12,senior-heavy,1617208
+Education,Low,15,12,Java + Spring Boot,14,SMS,Moderate,True,False,Basic,9,False,False,True,Global,On-prem,High,3,34499,7,600,None,Logistics,0,Rural,True,Azure,1000,12,balanced,2957949
+Healthcare,High,14,2,Python + Django,7,Payment,Moderate,False,True,Basic,8,False,False,True,Local,Cloud,High,0,52078,8,1000,Basic,Education,0,Tier 2,False,AWS,1000,2,senior-heavy,597151
+Education,Low,8,11,Java + Spring Boot,19,None,Advanced,True,False,None,4,False,True,False,Local,On-prem,Medium,3,28023,2,600,None,Finance,5000,Rural,False,DigitalOcean,5000,11,balanced,1381527
+Education,Low,7,4,Java + Spring Boot,27,SMS,Moderate,True,False,None,1,True,False,False,National,Cloud,Low,2,54982,5,1000,Basic,Logistics,5000,Rural,True,None,0,4,senior-heavy,545053
+Retail,Low,8,11,MERN,28,All,Advanced,True,False,Advanced,6,True,True,False,Local,On-prem,Medium,0,88385,5,1000,Basic,Logistics,0,Rural,True,None,5000,11,senior-heavy,2139057
+Travel,Low,5,9,Python + Django,27,All,Basic,False,True,Basic,4,True,True,False,National,Cloud,Medium,2,65859,8,1000,None,Healthcare,0,Rural,False,None,10000,9,senior-heavy,933761
+FinTech,Low,9,7,MEAN,19,SMS,Moderate,True,True,Advanced,7,False,False,False,Global,On-prem,High,4,13055,2,600,None,Finance,20000,Rural,True,None,10000,7,balanced,976221
+Retail,High,4,11,MERN,26,Maps,Moderate,True,True,Basic,9,False,True,True,National,Cloud,Medium,3,54174,8,600,Dedicated,Healthcare,0,Tier 1,False,Azure,10000,11,balanced,762235
+Education,High,11,6,MEAN,5,SMS,Basic,True,True,None,6,False,False,True,Global,On-prem,Low,4,51346,3,600,Dedicated,Healthcare,10000,Tier 1,False,Azure,3000,6,balanced,1065905
+Education,Low,13,4,MERN,27,Payment,Advanced,True,False,Advanced,5,True,False,True,Local,Cloud,Low,3,1562,7,600,Dedicated,Education,10000,Tier 1,True,None,5000,4,balanced,757170
+Travel,Low,3,4,Java + Spring Boot,11,All,Basic,False,False,Advanced,1,False,True,True,Global,Cloud,High,4,13605,2,1000,Basic,Logistics,10000,Tier 1,True,Azure,5000,4,senior-heavy,271838
+FinTech,Low,7,4,Python + Django,8,SMS,Basic,False,True,Basic,2,True,False,False,National,Hybrid,Medium,1,23617,4,600,None,Education,0,Rural,True,AWS,0,4,balanced,387229
+Travel,Medium,8,9,MERN,11,All,Basic,True,True,None,6,True,True,True,National,Cloud,Low,0,95436,7,600,None,Retail,0,Tier 2,False,Azure,10000,9,balanced,950254
+Education,Medium,4,10,PHP + Laravel,17,Payment,Moderate,True,True,Advanced,5,False,True,False,Local,Cloud,High,3,56865,5,600,Basic,Logistics,20000,Rural,False,DigitalOcean,3000,10,balanced,663588
+FinTech,Medium,12,11,MERN,19,Payment,Basic,False,False,Basic,10,False,False,True,Local,Cloud,Medium,3,24418,4,300,None,Finance,20000,Tier 1,False,DigitalOcean,5000,11,junior-heavy,879860
+Travel,Medium,5,3,MEAN,19,All,Moderate,True,True,Basic,5,True,True,True,Global,On-prem,High,4,88044,2,600,Dedicated,Healthcare,10000,Rural,False,DigitalOcean,0,3,balanced,234065
+FinTech,Medium,8,5,MERN,8,SMS,Basic,False,False,None,10,True,False,True,Global,Hybrid,Low,3,37322,3,300,Basic,Finance,20000,Rural,True,DigitalOcean,0,5,junior-heavy,298046
+Education,High,13,3,Java + Spring Boot,13,Maps,Moderate,False,True,Advanced,6,False,True,False,National,Hybrid,Medium,3,84079,2,300,Basic,Logistics,0,Tier 1,True,Azure,5000,3,junior-heavy,321960
+Travel,Medium,3,4,MEAN,10,None,Basic,False,True,Advanced,1,False,True,True,Local,On-prem,Low,2,43215,7,300,Dedicated,Healthcare,10000,Tier 2,True,Azure,0,4,junior-heavy,106554
+Retail,Medium,12,3,Python + Django,26,None,Advanced,True,False,Advanced,8,False,False,False,Local,Cloud,Medium,2,93292,2,600,Basic,Logistics,10000,Tier 1,True,AWS,1000,3,balanced,583280
+Education,Medium,4,2,MEAN,20,None,Moderate,True,False,Basic,8,True,True,True,Local,On-prem,Medium,3,81377,6,600,None,Healthcare,0,Tier 1,True,DigitalOcean,1000,2,balanced,120318
+E-commerce,High,9,12,MERN,12,None,Moderate,True,False,None,8,False,False,False,Local,Hybrid,Low,2,56604,3,300,None,Healthcare,0,Rural,False,DigitalOcean,3000,12,junior-heavy,680596
+Education,High,3,6,Python + Django,11,Maps,Basic,False,True,Advanced,5,False,False,True,Global,Cloud,High,1,14609,3,600,None,Finance,0,Tier 1,False,Azure,3000,6,balanced,222283
+Travel,High,4,3,Python + Django,17,SMS,Basic,True,False,Basic,4,True,True,False,Global,On-prem,High,4,37795,7,1000,None,Finance,5000,Tier 1,False,DigitalOcean,3000,3,senior-heavy,334445
+FinTech,Medium,14,4,MEAN,5,SMS,Moderate,False,True,None,5,True,True,True,Global,On-prem,Medium,4,181,5,300,None,Healthcare,0,Tier 1,True,AWS,3000,4,junior-heavy,349796
+E-commerce,Low,12,6,Java + Spring Boot,30,Maps,Moderate,False,False,Advanced,5,False,False,False,National,Cloud,Medium,2,93131,4,1000,Dedicated,Logistics,5000,Tier 2,True,DigitalOcean,1000,6,senior-heavy,1837435
+Healthcare,High,13,12,MEAN,16,SMS,Basic,True,False,Basic,4,True,True,False,Global,Cloud,Medium,5,89021,6,1000,Basic,Logistics,5000,Tier 1,False,DigitalOcean,0,12,senior-heavy,4266880
+E-commerce,High,8,11,PHP + Laravel,27,Maps,Advanced,True,False,Basic,10,False,False,True,Local,On-prem,High,1,61171,7,600,None,Logistics,10000,Tier 2,True,DigitalOcean,5000,11,balanced,1194376
+Healthcare,Medium,10,3,PHP + Laravel,8,None,Moderate,False,True,Basic,6,True,True,False,Local,On-prem,Medium,4,87255,8,600,Dedicated,Education,0,Tier 1,False,Azure,3000,3,balanced,417775
+E-commerce,Medium,14,8,Java + Spring Boot,12,SMS,Moderate,False,True,Basic,5,False,True,False,Global,On-prem,High,1,89614,8,300,None,Retail,0,Tier 1,False,Azure,10000,8,junior-heavy,791610
+Education,Medium,7,3,MERN,9,All,Moderate,False,False,Basic,6,False,False,False,National,On-prem,Low,4,3513,8,600,Basic,Finance,20000,Tier 1,False,Azure,3000,3,balanced,327123
+Education,Low,12,7,Python + Django,26,None,Moderate,False,True,None,1,False,True,False,Global,Cloud,Medium,4,63156,7,1000,Basic,Finance,10000,Tier 1,True,Azure,1000,7,senior-heavy,1625187
+Travel,High,11,10,MEAN,14,Maps,Advanced,True,False,Advanced,4,True,True,True,Local,Hybrid,Low,4,12746,3,300,None,Finance,5000,Tier 2,True,None,5000,10,junior-heavy,733685
+Healthcare,Low,9,3,PHP + Laravel,13,All,Advanced,False,True,Basic,3,True,True,True,Global,Hybrid,Low,1,67095,7,300,Dedicated,Logistics,20000,Tier 1,False,None,3000,3,junior-heavy,216210
+FinTech,Medium,7,12,Python + Django,27,None,Moderate,False,False,None,1,False,False,True,Global,On-prem,Low,4,39733,2,600,Dedicated,Logistics,20000,Tier 2,True,DigitalOcean,0,12,balanced,1125341
+FinTech,High,5,9,PHP + Laravel,11,Maps,Advanced,False,True,None,3,False,False,False,Global,Cloud,Medium,5,39755,5,600,None,Healthcare,0,Tier 2,False,Azure,3000,9,balanced,771717
+FinTech,High,12,10,PHP + Laravel,16,All,Advanced,False,True,None,1,True,True,True,Global,Cloud,Medium,5,62494,4,1000,None,Education,10000,Tier 1,True,None,10000,10,senior-heavy,2479864
+Travel,Low,15,3,Python + Django,29,Maps,Advanced,True,True,Basic,2,False,False,True,Global,Hybrid,High,1,25703,4,600,Basic,Healthcare,10000,Rural,False,Azure,0,3,balanced,541056
+E-commerce,High,6,4,MERN,11,None,Basic,True,False,Basic,10,True,False,True,Global,Hybrid,High,5,69276,5,1000,None,Education,5000,Rural,False,DigitalOcean,5000,4,senior-heavy,489077
+Travel,Medium,8,10,MERN,23,None,Basic,False,True,None,8,True,True,False,Local,Cloud,Medium,2,51223,7,1000,Basic,Finance,0,Tier 1,False,AWS,1000,10,senior-heavy,1815225
+E-commerce,High,11,5,MERN,23,SMS,Moderate,True,True,Basic,7,False,True,False,Local,Cloud,Low,4,96240,4,1000,Dedicated,Finance,10000,Tier 1,False,AWS,10000,5,senior-heavy,1282303
+Education,High,15,11,PHP + Laravel,7,All,Moderate,True,False,Advanced,1,True,True,False,Global,Cloud,High,2,56609,5,1000,Basic,Education,10000,Tier 1,True,AWS,0,11,senior-heavy,4522417
+Travel,Low,15,10,PHP + Laravel,20,None,Moderate,False,True,Basic,7,True,True,False,Local,Hybrid,Medium,2,25431,4,300,Basic,Finance,20000,Tier 1,True,AWS,10000,10,junior-heavy,1246281
+E-commerce,High,12,5,MEAN,6,None,Basic,True,False,None,5,True,False,False,Global,Hybrid,Low,2,17052,6,300,Basic,Healthcare,0,Rural,True,AWS,5000,5,junior-heavy,524724
+FinTech,Low,4,10,Python + Django,27,Maps,Moderate,False,True,Advanced,5,False,True,True,National,On-prem,High,4,63778,4,600,None,Education,20000,Tier 1,True,DigitalOcean,1000,10,balanced,631712
+Healthcare,Low,14,5,MEAN,27,SMS,Advanced,False,True,None,8,True,False,False,Global,On-prem,Medium,0,7877,4,1000,Dedicated,Healthcare,10000,Tier 2,True,None,0,5,senior-heavy,1766944
+Travel,Medium,9,2,PHP + Laravel,6,Maps,Basic,False,True,Advanced,6,False,True,True,National,Hybrid,High,3,56089,8,600,Dedicated,Finance,5000,Tier 1,False,DigitalOcean,1000,2,balanced,245023
+Education,Medium,11,8,MEAN,9,None,Moderate,False,True,None,9,False,False,False,Local,Hybrid,Medium,2,35275,7,600,Basic,Logistics,10000,Tier 1,True,DigitalOcean,10000,8,balanced,1145238
+E-commerce,Medium,12,7,MERN,19,None,Moderate,False,True,Basic,1,True,False,False,Local,On-prem,Low,2,36244,4,1000,Basic,Education,5000,Tier 1,True,Azure,3000,7,senior-heavy,1925578
+Healthcare,High,12,2,PHP + Laravel,19,All,Moderate,True,True,None,5,False,True,False,Global,Hybrid,Low,4,30812,4,1000,None,Finance,0,Rural,False,AWS,1000,2,senior-heavy,589275
+Travel,Medium,11,5,MERN,25,SMS,Moderate,True,True,Basic,10,False,False,False,Global,On-prem,Medium,2,81565,2,300,None,Retail,10000,Tier 1,False,Azure,1000,5,junior-heavy,407539
+Retail,High,12,3,PHP + Laravel,30,All,Advanced,False,True,Basic,10,True,True,False,Global,Cloud,Low,1,74158,6,300,Dedicated,Logistics,5000,Rural,False,AWS,10000,3,junior-heavy,319818
+Healthcare,High,11,11,Java + Spring Boot,12,Maps,Basic,False,True,Basic,6,True,True,False,Global,On-prem,Medium,0,46185,6,300,Dedicated,Finance,20000,Tier 2,False,Azure,5000,11,junior-heavy,853311
+Healthcare,Medium,10,5,PHP + Laravel,26,Payment,Advanced,False,False,Basic,6,True,True,False,National,Hybrid,Low,4,64825,7,600,None,Education,5000,Tier 2,True,Azure,10000,5,balanced,872505
+Healthcare,Low,4,6,Python + Django,5,Payment,Basic,True,False,Basic,6,True,False,True,Global,On-prem,Low,2,44174,6,600,Dedicated,Logistics,20000,Tier 1,True,AWS,10000,6,balanced,455185
+Education,Medium,14,9,Python + Django,27,Payment,Advanced,True,True,None,1,False,False,False,National,On-prem,Low,4,94753,6,600,Basic,Finance,20000,Tier 1,False,None,5000,9,balanced,1980999
+Education,Medium,8,11,MEAN,9,None,Advanced,True,False,Advanced,5,False,True,False,National,Cloud,Low,2,35943,5,300,Basic,Education,20000,Tier 1,False,DigitalOcean,10000,11,junior-heavy,685284
+Retail,High,12,5,MEAN,5,All,Basic,True,True,Basic,1,False,True,False,Global,On-prem,High,3,68324,3,300,Basic,Retail,5000,Tier 1,True,None,3000,5,junior-heavy,369570
+Travel,High,9,6,MERN,16,None,Advanced,True,True,Basic,3,False,False,False,Global,Hybrid,High,5,9760,7,600,Dedicated,Retail,5000,Tier 1,False,AWS,0,6,balanced,895262
+Travel,Low,14,7,MEAN,9,All,Moderate,True,True,Basic,8,True,False,True,Global,On-prem,Medium,1,26077,7,1000,None,Logistics,0,Rural,True,AWS,1000,7,senior-heavy,2659782
+E-commerce,Medium,9,9,Java + Spring Boot,24,SMS,Advanced,True,False,Basic,9,True,False,True,National,Hybrid,Medium,3,82628,5,300,Dedicated,Retail,5000,Rural,False,DigitalOcean,10000,9,junior-heavy,713964
+FinTech,Low,4,3,Python + Django,8,Payment,Moderate,False,True,Basic,7,True,False,False,Global,On-prem,High,1,3846,4,300,Basic,Logistics,20000,Tier 1,False,AWS,3000,3,junior-heavy,133923
+Education,Medium,11,6,Python + Django,13,None,Moderate,False,True,Basic,1,False,False,False,Local,Hybrid,Low,4,27077,8,600,Dedicated,Finance,20000,Rural,False,Azure,3000,6,balanced,915156
+Travel,Medium,12,2,Java + Spring Boot,29,All,Basic,True,True,Basic,9,True,True,False,Global,Cloud,Medium,1,49055,4,1000,Basic,Education,20000,Rural,True,AWS,0,2,senior-heavy,485583
+E-commerce,Low,3,10,Java + Spring Boot,14,None,Basic,True,True,Basic,2,False,False,True,Global,On-prem,Low,0,9734,6,300,Dedicated,Healthcare,20000,Tier 1,True,Azure,0,10,junior-heavy,254305
+FinTech,Medium,4,11,Python + Django,21,None,Moderate,False,False,None,2,False,False,False,National,On-prem,Low,1,53308,6,1000,Basic,Healthcare,5000,Tier 2,True,None,5000,11,senior-heavy,1215701
+Retail,Low,3,8,Python + Django,29,Payment,Moderate,False,False,Advanced,2,False,False,True,Global,Cloud,Low,4,22234,3,600,Basic,Logistics,0,Tier 1,True,Azure,3000,8,balanced,351333
+Education,Medium,9,9,Python + Django,14,Maps,Basic,True,False,Advanced,10,False,True,False,Global,Cloud,High,3,71561,5,1000,Basic,Education,5000,Tier 2,False,None,10000,9,senior-heavy,1639696
+Education,Low,11,3,MERN,10,All,Advanced,True,True,None,8,True,True,False,National,Cloud,High,4,63907,3,1000,Dedicated,Logistics,20000,Tier 2,False,AWS,0,3,senior-heavy,842757
+Retail,Medium,7,8,PHP + Laravel,25,Payment,Basic,False,True,Advanced,6,False,False,False,Local,On-prem,High,5,17789,3,300,Dedicated,Healthcare,10000,Tier 1,False,None,3000,8,junior-heavy,427409
+Healthcare,Low,5,9,MERN,22,SMS,Moderate,True,True,Advanced,8,True,True,False,Global,Hybrid,Low,2,82470,2,300,None,Retail,0,Tier 2,False,DigitalOcean,0,9,junior-heavy,289496
+Healthcare,Low,8,8,MEAN,13,Payment,Moderate,True,True,Advanced,10,False,False,False,Global,Hybrid,High,3,27484,3,1000,None,Education,5000,Tier 1,True,Azure,3000,8,senior-heavy,1265983
+E-commerce,Low,5,9,PHP + Laravel,30,SMS,Moderate,False,False,Basic,9,True,True,False,National,On-prem,High,3,46579,4,300,Dedicated,Retail,10000,Rural,True,Azure,0,9,junior-heavy,270502
+Education,High,5,6,Java + Spring Boot,26,None,Advanced,False,False,None,1,False,False,False,Global,On-prem,Low,4,73423,3,1000,Basic,Retail,20000,Tier 1,True,Azure,1000,6,senior-heavy,736897
+FinTech,Low,10,10,Java + Spring Boot,13,All,Basic,False,True,Advanced,5,False,False,True,Global,Hybrid,Medium,2,82005,2,600,Dedicated,Finance,0,Rural,False,None,1000,10,balanced,1442352
+E-commerce,High,10,9,MEAN,27,Payment,Basic,True,False,None,1,False,True,False,Local,Hybrid,Medium,1,85915,6,300,Dedicated,Finance,0,Tier 2,False,Azure,10000,9,junior-heavy,591849
+Education,Medium,12,7,MERN,7,Payment,Advanced,True,False,None,3,False,True,False,Global,Cloud,High,4,53691,3,1000,Dedicated,Finance,0,Tier 2,False,DigitalOcean,10000,7,senior-heavy,2351886
+Education,Low,4,9,MERN,7,Payment,Advanced,True,True,Basic,10,True,True,True,Local,Hybrid,Medium,3,10702,7,600,None,Retail,0,Rural,True,Azure,10000,9,balanced,608424
+Retail,Medium,7,8,Python + Django,12,Payment,Moderate,True,True,Basic,5,False,False,True,National,On-prem,High,2,45775,8,300,Dedicated,Logistics,5000,Tier 2,True,AWS,3000,8,junior-heavy,383287
+Education,Medium,12,4,Java + Spring Boot,11,Maps,Advanced,False,True,Advanced,4,False,True,False,National,Cloud,Low,4,86338,7,600,None,Healthcare,5000,Tier 1,False,DigitalOcean,10000,4,balanced,846555
+E-commerce,High,8,8,Java + Spring Boot,5,Payment,Moderate,False,False,Basic,2,True,False,False,Local,On-prem,High,1,98622,2,1000,Basic,Logistics,0,Tier 2,False,None,10000,8,senior-heavy,1456675
+Education,Medium,10,6,MERN,12,All,Basic,False,False,Basic,10,False,True,True,Global,Cloud,Medium,4,91489,6,300,None,Logistics,10000,Tier 1,True,DigitalOcean,3000,6,junior-heavy,442241
+Education,Medium,15,3,MEAN,19,None,Advanced,True,True,None,5,False,True,True,Local,Cloud,Medium,0,94963,3,300,None,Logistics,5000,Tier 2,True,None,3000,3,junior-heavy,364055
+Education,High,5,3,Python + Django,19,Payment,Basic,False,True,Basic,3,False,False,False,Global,Hybrid,Medium,4,51672,6,600,None,Retail,20000,Tier 2,True,Azure,5000,3,balanced,263176
+E-commerce,High,12,5,PHP + Laravel,29,SMS,Basic,True,True,Basic,4,True,True,False,National,Cloud,Medium,3,85776,3,300,Basic,Education,10000,Tier 2,False,None,3000,5,junior-heavy,415080
+Education,High,13,2,PHP + Laravel,8,SMS,Basic,False,True,Advanced,7,True,True,False,Local,Hybrid,High,3,90004,5,600,None,Healthcare,20000,Rural,False,None,3000,2,balanced,340331
+E-commerce,High,15,6,Python + Django,21,Maps,Moderate,False,False,None,3,False,False,True,Local,Cloud,Medium,5,77402,4,300,None,Logistics,10000,Rural,False,None,5000,6,junior-heavy,727087
+Education,Medium,3,6,MERN,24,Maps,Moderate,False,False,Advanced,5,True,False,True,National,On-prem,Medium,0,58609,4,600,Basic,Finance,0,Rural,True,DigitalOcean,0,6,balanced,284444
+Retail,Low,14,10,MEAN,28,Payment,Advanced,False,False,Basic,6,False,True,False,Local,Cloud,Medium,2,5068,3,300,Dedicated,Finance,5000,Tier 2,True,DigitalOcean,5000,10,junior-heavy,900771
+Travel,Medium,13,6,MERN,18,None,Basic,False,False,Advanced,9,True,True,False,Global,On-prem,Low,3,36066,7,1000,Dedicated,Education,20000,Tier 2,True,None,5000,6,senior-heavy,1516911
+E-commerce,Medium,5,6,MEAN,13,Maps,Moderate,False,True,None,4,True,False,True,Local,Hybrid,Medium,5,93377,6,1000,Basic,Logistics,0,Tier 2,False,None,3000,6,senior-heavy,686727
+Education,Low,10,2,Python + Django,28,SMS,Basic,True,False,Basic,7,True,True,False,Global,On-prem,Low,1,98093,6,1000,Basic,Retail,10000,Tier 2,False,None,3000,2,senior-heavy,445902
+Retail,Medium,13,2,Python + Django,29,None,Moderate,False,True,Basic,9,True,False,True,Local,On-prem,Low,1,14550,6,600,Basic,Education,5000,Tier 1,False,None,1000,2,balanced,385117
+FinTech,High,8,8,MERN,26,Maps,Advanced,False,True,Basic,8,False,False,False,Local,Cloud,Medium,2,487,6,300,Basic,Healthcare,10000,Rural,True,AWS,10000,8,junior-heavy,501004
+Travel,Low,9,12,PHP + Laravel,12,Payment,Advanced,True,False,None,6,True,True,False,Global,Cloud,Medium,0,97431,6,1000,Dedicated,Healthcare,20000,Rural,True,Azure,5000,12,senior-heavy,2490672
+Healthcare,Medium,10,5,MEAN,14,None,Basic,True,False,Basic,4,False,True,True,National,Hybrid,High,0,79218,8,600,Basic,Education,20000,Tier 1,False,AWS,1000,5,balanced,839026
+E-commerce,Medium,3,2,Java + Spring Boot,27,All,Basic,True,False,Basic,1,False,False,True,National,On-prem,High,4,82529,7,1000,Basic,Healthcare,20000,Tier 1,True,Azure,5000,2,senior-heavy,193568
+FinTech,Low,7,3,MEAN,30,SMS,Basic,False,True,Basic,2,False,False,True,National,On-prem,Medium,5,58334,4,1000,Basic,Retail,10000,Rural,False,AWS,1000,3,senior-heavy,482199
+FinTech,High,15,4,Java + Spring Boot,27,Maps,Moderate,True,False,Basic,8,False,True,True,Local,Hybrid,Medium,3,33775,7,300,None,Finance,10000,Tier 1,False,Azure,10000,4,junior-heavy,383727
+Healthcare,Medium,12,6,MEAN,23,All,Moderate,False,False,Basic,3,False,True,False,National,Cloud,High,0,44924,3,300,Basic,Education,20000,Tier 1,True,DigitalOcean,3000,6,junior-heavy,534133
+Retail,High,12,3,MERN,28,All,Basic,True,False,Advanced,1,False,True,False,Global,Cloud,Medium,4,70141,8,1000,Dedicated,Logistics,10000,Tier 1,True,None,1000,3,senior-heavy,844860
+Healthcare,High,12,5,MEAN,12,SMS,Basic,True,False,Advanced,5,True,True,True,Local,Hybrid,Medium,0,27277,3,1000,None,Logistics,10000,Rural,False,None,1000,5,senior-heavy,1560492
+E-commerce,Medium,4,2,MERN,20,Payment,Basic,True,False,Basic,10,True,False,True,Global,On-prem,High,1,77243,8,1000,Dedicated,Logistics,0,Tier 2,True,DigitalOcean,3000,2,senior-heavy,168999
+FinTech,High,15,11,Python + Django,21,Maps,Advanced,False,False,Advanced,4,False,False,False,Global,On-prem,Low,1,63958,2,600,Basic,Logistics,20000,Tier 2,False,Azure,3000,11,balanced,2459568
+Education,Medium,5,8,PHP + Laravel,10,Payment,Basic,True,True,Basic,9,False,False,False,Local,Hybrid,Medium,4,27613,6,300,Dedicated,Education,0,Tier 2,True,Azure,3000,8,junior-heavy,351394
+Retail,Medium,15,4,PHP + Laravel,30,SMS,Advanced,False,True,Basic,8,False,False,True,National,On-prem,High,2,97726,4,600,Basic,Retail,5000,Tier 2,False,None,1000,4,balanced,785198
+Healthcare,Medium,3,2,Java + Spring Boot,5,Payment,Basic,False,False,Basic,1,False,False,False,National,Hybrid,High,5,26192,8,600,None,Logistics,10000,Rural,False,DigitalOcean,5000,2,balanced,109945
+Travel,High,4,5,Python + Django,6,SMS,Advanced,False,True,Basic,10,False,True,True,Local,Hybrid,Medium,2,70553,4,300,Basic,Retail,10000,Tier 1,False,Azure,1000,5,junior-heavy,167453
+Retail,Medium,14,7,PHP + Laravel,11,All,Basic,False,True,Basic,10,False,False,True,Local,Cloud,High,5,96919,4,300,Basic,Healthcare,5000,Rural,True,Azure,5000,7,junior-heavy,823871
+Travel,High,8,5,Java + Spring Boot,13,All,Advanced,True,True,None,7,False,False,False,Local,Hybrid,Low,4,49002,2,600,Dedicated,Healthcare,10000,Tier 1,False,None,5000,5,balanced,553544
+Retail,Low,7,7,PHP + Laravel,10,All,Basic,False,True,None,7,False,False,False,Global,Cloud,High,2,9621,3,1000,Dedicated,Logistics,0,Tier 2,False,None,0,7,senior-heavy,1160060
+Education,Low,3,11,MERN,12,Maps,Moderate,True,False,None,10,False,False,True,Global,On-prem,High,4,20052,3,600,None,Education,0,Tier 2,True,AWS,3000,11,balanced,515214
+E-commerce,Medium,3,11,Java + Spring Boot,12,Payment,Basic,False,True,Basic,5,True,True,False,Local,Cloud,Medium,0,49216,2,1000,Basic,Education,5000,Tier 2,True,None,0,11,senior-heavy,779268
+E-commerce,Low,10,5,MEAN,21,All,Advanced,True,True,None,2,False,False,False,National,Cloud,Low,0,66491,4,600,Basic,Retail,20000,Rural,True,None,1000,5,balanced,743969
