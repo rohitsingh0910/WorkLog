@@ -1,0 +1,48 @@
+📌 Looping over Arrays
+
+Declare an array:
+arr=(1 2 3 4)
+
+Loop through array elements:
+for i in "${arr[@]}"; do
+  echo $i
+done
+
+Access element by index:
+echo ${arr[0]}   # first element
+echo ${arr[@]}   # all elements
+echo ${#arr[@]}  # number of elements
+
+---
+
+📌 String Manipulation
+
+- `${#str}` ➜ length of string
+- `${str:0:5}` ➜ substring (from index 0, length 5)
+- `${str/old/new}` ➜ replace first occurrence
+- `${str//old/new}` ➜ replace all occurrences
+
+---
+
+📌 Arithmetic Operations
+
+- `let var=expr` ➜ performs arithmetic
+- `$(( expr ))` ➜ arithmetic expansion
+
+Examples:
+let sum=5+3
+echo $sum
+echo $((10 * 2 + 5))
+
+---
+
+📌 Debugging with set -x
+
+- Add `set -x` at the start of the script to enable debugging (prints each command before execution).
+- Use `set +x` to disable debugging.
+
+Example:
+set -x
+echo "Debugging this line"
+set +x
+echo "Debugging stopped"

@@ -1,0 +1,56 @@
+📌 What is Pywinauto?
+
+- Pywinauto is a Python GUI automation library.
+- It allows controlling desktop applications by simulating mouse clicks, key presses, and UI interactions.
+- Best suited for Windows apps.
+
+📌 Installation:
+
+Install with pip:
+pip install pywinauto
+
+
+You may also need:
+pip install pywin32
+
+
+📌 Basic Setup:
+
+```python
+from pywinauto.application import Application
+📌 Key Classes & Functions:
+
+Application — the core class to start or connect to an app.
+
+.start(path) — launch a new application.
+
+.connect(title='Window Title') — attach to a running window.
+
+.window(title="...") — access the window.
+
+.child_window() — access buttons, fields, etc.
+
+📌 Launching an Application:
+
+app = Application().start("notepad.exe")
+📌 Connecting to Existing App:
+
+app = Application().connect(title="Untitled - Notepad")
+This allows you to attach to an already open window and perform actions.
+
+
+---
+
+## 💻 Source Code for `07-july`
+
+### ✅ `launch_notepad.py`
+```python
+from pywinauto.application import Application
+
+# Launch Notepad
+app = Application().start("notepad.exe")
+
+# Grab the window
+notepad = app.window(title_re=".*Notepad")
+notepad.wait('ready')
+notepad.type_keys("Hello, this is automated!", with_spaces=True)

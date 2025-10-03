@@ -1,0 +1,62 @@
+📌 Loops
+
+🔸 for loop
+for var in item1 item2 ...; do
+  commands
+done
+
+🔸 while loop
+while [ condition ]; do
+  commands
+done
+
+🔸 until loop (opposite of while)
+until [ condition ]; do
+  commands
+done
+
+📌 break & continue
+
+break    ➜ exits the loop
+continue ➜ skips current iteration and continues next
+
+📌 Functions
+
+Syntax:
+function_name() {
+  commands
+}
+
+function_name  # to call the function
+
+📌 Function Parameters
+
+Inside function:
+$1, $2, ... ➜ first, second, etc., arguments
+
+Example:
+greet() {
+  echo "Hello $1"
+}
+greet Rohit
+
+📌 Return Values
+
+return <number> ➜ sends numeric status code (0 = success)
+Use $? to access last return value
+
+Example:
+check_even() {
+  if (( $1 % 2 == 0 )); then
+    return 0
+  else
+    return 1
+  fi
+}
+
+check_even 4
+if [ $? -eq 0 ]; then
+  echo "Even"
+else
+  echo "Odd"
+fi

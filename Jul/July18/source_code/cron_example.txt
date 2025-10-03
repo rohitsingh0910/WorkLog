@@ -1,0 +1,5 @@
+# Run backup script at 5 AM daily
+0 5 * * * /home/user/backup.sh
+
+# Run hello script every 10 minutes
+*/10 * * * * echo "Hello from Cron" >> /tmp/cron.log

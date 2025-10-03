@@ -1,0 +1,63 @@
+📌 Variables in Shell
+
+1. Declaring Variables:
+   ```bash
+   name="Rohit"
+   age=25
+Using Variables:
+
+Use $ before the variable name: echo $name
+
+Local vs Global:
+
+Shell doesn't have strict local/global like Python, but:
+
+Inside a function: local varname=value limits scope to function
+
+Outside: accessible everywhere (global)
+
+📌 Comments in Shell
+
+Use # to comment a line.
+
+Everything after # is ignored by the shell.
+
+Example:
+
+# This is a comment
+echo "Hello"  # This also works
+📌 Reading User Input
+
+read is used to take input from user.
+
+Syntax:
+
+read variable_name
+You can prompt the user:
+
+read -p "Enter your name: " name
+echo "Welcome, $name!"
+📌 Exit Status ($?)
+
+$? gives the exit code of the last executed command.
+
+0 means success, anything else means error.
+
+Example:
+
+ls somefile.txt
+if [ $? -ne 0 ]; then
+  echo "File not found!"
+fi
+
+
+---
+
+## 💻 Source Code for `02-july`
+
+### ✅ `user_input.sh`
+```bash
+#!/bin/bash
+# Reading user input
+read -p "Enter your name: " name
+echo "Hello, $name!"

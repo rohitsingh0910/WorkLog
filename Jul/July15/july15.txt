@@ -1,0 +1,48 @@
+📌 if, elif, else syntax
+
+if [ condition ]; then
+  # code if true
+elif [ condition ]; then
+  # another condition
+else
+  # code if none match
+fi
+
+📌 Test Conditions
+
+[ $a -eq $b ]     ➜ equal
+[ $a -ne $b ]     ➜ not equal
+[ $a -lt $b ]     ➜ less than
+[ $a -le $b ]     ➜ less than or equal
+[ $a -gt $b ]     ➜ greater than
+[ $a -ge $b ]     ➜ greater than or equal
+
+String comparisons:
+[ -z "$str" ]     ➜ true if string is empty
+[ -n "$str" ]     ➜ true if string is not empty
+[ "$str1" = "$str2" ] ➜ string equality
+[ "$str1" != "$str2" ] ➜ string inequality
+
+📌 Logical Operators
+
+&& ➜ AND
+|| ➜ OR
+
+Example:
+if [ $a -gt 5 ] && [ $a -lt 10 ]; then
+  echo "a is between 6 and 9"
+fi
+
+📌 case statement
+
+case $var in
+  pattern1)
+    # code block
+    ;;
+  pattern2)
+    # another block
+    ;;
+  *)
+    # default block
+    ;;
+esac

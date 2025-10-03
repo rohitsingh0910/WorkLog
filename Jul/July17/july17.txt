@@ -1,0 +1,57 @@
+📌 Command-Line Arguments
+
+- `$0` ➜ script name
+- `$1`, `$2`, ... ➜ first, second, etc., arguments
+- `$#` ➜ number of arguments
+- `$@` ➜ all arguments as a list
+- `$*` ➜ all arguments as a single string
+
+Example:
+./script.sh arg1 arg2
+$1 = arg1
+$2 = arg2
+
+📌 Logging
+
+- Logs are useful for debugging or tracking.
+- Use `>> logfile.txt` to append output.
+- Example:
+  echo "Starting script..." >> script.log
+
+- `logger` command can also send messages to syslog:
+  logger "Script started"
+
+📌 Error Handling
+
+- `$?` gives the exit status of the last command (0 = success).
+- Use `set -e` to exit script on error.
+- Use `||` to run a command on failure.
+
+Example:
+```bash
+cp file1 file2 || echo "Copy failed!"
+Trap errors using:
+
+bash
+Copy
+Edit
+trap 'echo "An error occurred."' ERR
+yaml
+Copy
+Edit
+
+---
+
+## 💻 Code Files for `17-july`
+
+---
+
+### ✅ `arguments.sh`
+```bash
+#!/bin/bash
+
+echo "Script name: $0"
+echo "First argument: $1"
+echo "Second argument: $2"
+echo "All arguments: $@"
+echo "Total arguments: $#"

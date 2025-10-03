@@ -1,0 +1,67 @@
+📌 Trap Signals in Bash
+
+- `trap` is used to catch and handle signals or events during script execution.
+- Common signals:
+  - SIGINT (2)  ➜ Ctrl + C
+  - SIGTERM (15) ➜ termination signal
+  - EXIT ➜ when the script exits
+- Syntax:
+  trap 'commands' SIGNAL
+
+Example:
+trap 'echo "Script interrupted! Cleaning up..."' SIGINT
+
+- Multiple signals:
+  trap 'echo "Exiting gracefully..."' SIGINT SIGTERM EXIT
+
+---
+
+📌 Script Optimization & Best Practices
+
+1. **Use `set -e` and `set -u`:**
+   - `set -e`: Exit on command failure.
+   - `set -u`: Treat unset variables as errors.
+
+2. **Use functions** to modularize code.
+
+3. **Avoid subshells** and unnecessary commands (e.g., use built-in features instead of external commands like `expr`).
+
+4. **Quote your variables** to prevent word splitting.
+   Example: `"$var"`
+
+5. **Use `$(...)` instead of backticks** for command substitution.
+
+6. **Check exit codes** (`$?`) and handle errors properly.
+
+7. **Enable debugging when needed**:
+   - `set -x` to trace script execution.
+
+8. **Prefer local variables** inside functions to avoid conflicts:
+   ```bash
+   my_function() {
+       local var="value"
+   }
+9. Redirect logs instead of printing everything on the console:
+echo "Message" >> script.log
+
+10. Use trap for cleanup on exit or interruptions.
+
+---
+
+## 💻 Code Files for `24-july`
+
+---
+
+### ✅ `trap_example.sh`
+```bash
+#!/bin/bash
+
+trap 'echo "Ctrl+C detected! Cleaning up..."; exit 1' SIGINT
+trap 'echo "Script terminated!"; exit 1' SIGTERM
+trap 'echo "Script exiting..."' EXIT
+
+echo "Press Ctrl+C to trigger SIGINT"
+for i in {1..5}; do
+  echo "Processing step $i..."
+  sleep 2
+done

@@ -1,0 +1,65 @@
+Preparing a sandbox
+
+mkdir -p ~/bash-play/session1 && cd ~/bash-play/session1
+pwd   # make sure you’re inside bash-play/session1
+
+1. Create files: touch
+
+touch a.txt b.txt notes.md
+ls -l
+
+2. Make and remove Directories
+
+mkdir dir1
+mkdir -p dir2/sub1/sub2
+tree dir2 2>/dev/null || find dir2 -maxdepth 3 -type d
+rmdir dir1           # works – it’s empty
+rmdir dir2           # will fail – not empty
+rm -r dir2           # removes everything under dir2
+
+3. Copy files and folders
+
+echo "hello" > hello.txt
+cp hello.txt hello_copy.txt
+mkdir data
+echo "line1" > data/file1.txt
+cp -r data data_copy
+cp -av data data_archive   # see what’s being copied, keep metadata
+
+4. Move and rename
+
+mv hello_copy.txt moved_hello.txt      # rename
+mkdir stash
+mv moved_hello.txt stash/              # move into directory
+
+Safety flags:
+
+-i → interactive (ask before overwrite)
+
+-n → no clobber (don’t overwrite existing)
+
+-v → verbose (show what happened)
+
+5. Remove files
+
+touch temp1 temp2
+rm -i temp1   # observe the prompt
+rm temp2
+
+6. Wildcards and brace expansion
+
+* = anything
+
+? = single character
+
+[abc] = one of a, b, c
+
+{a,b,c} = brace expansion creates multiple args
+
+touch log1.txt log2.txt log3.txt img1.png img2.png
+ls log*.txt
+cp log?.txt logs_backup/ 2>/dev/null || mkdir logs_backup && cp log?.txt logs_backup/
+echo {Mon,Tue,Wed}_report.txt
+touch {Mon,Tue,Wed}_report.txt
+ls *_report.txt
+

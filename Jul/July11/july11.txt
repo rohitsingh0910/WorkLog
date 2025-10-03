@@ -1,0 +1,31 @@
+📌 Keyboard Automation
+
+✔️ Use `.type_keys()` to simulate typing or hotkeys.
+✔️ Supports modifiers like Ctrl, Alt, Shift.
+✔️ Use curly braces `{}` for special keys like {ENTER}, {TAB}, {CTRL down}C{CTRL up}
+
+Examples:
+- notepad.type_keys("Hello World{ENTER}")
+- notepad.type_keys("^a")   # Ctrl+A
+- notepad.type_keys("^c")   # Ctrl+C
+- notepad.type_keys("{CTRL down}v{CTRL up}")  # Ctrl+V
+
+📌 Mouse Automation
+
+✔️ Move, click, double-click, right-click, drag-and-drop.
+✔️ Use `.click_input()`, `.double_click_input()`, `.right_click_input()`, `.drag_mouse_input()`.
+
+Example:
+- notepad.click_input()
+- some_control.right_click_input()
+
+📌 Drag and Drop
+
+✔️ Use `drag_mouse_input(dst=(x, y))` for drag & drop simulation.
+
+✔️ Automate file move in Explorer:
+  1. Open two Explorer windows.
+  2. Locate source and target.
+  3. Use `.move_mouse_input()` and `.drag_mouse_input()`.
+
+⚠️ Note: For file move, make sure to use absolute screen coordinates or identify source/target using `.rectangle().mid_point()`

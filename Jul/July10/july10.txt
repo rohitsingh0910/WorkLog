@@ -1,0 +1,56 @@
+📌 Error Handling in Pywinauto
+
+✔️ Use try-except blocks to handle exceptions like ElementNotFoundError or TimeoutError.
+✔️ This prevents crashes and allows logging useful error messages.
+
+Example:
+```python
+try:
+    app = Application().connect(title_re=".*Notepad")
+except Exception as e:
+    print("Error:", e)
+📌 Debugging with print_control_identifiers()
+
+✔️ Helps inspect control hierarchy.
+✔️ Very useful for figuring out control names, types, automation IDs.
+
+📌 Waiting for Elements
+
+✔️ Use .wait('ready') or .wait("exists enabled visible ready") to wait until control is available.
+✔️ You can also use .wait_until(timeout=10, retry_interval=0.5) for custom wait logic.
+
+📌 Advanced Controls
+
+✔️ ComboBox: Use .select("ItemName") to pick an item.
+✔️ ListBox: Use .select() for single/multi items.
+✔️ TreeView: Use .get_item().click() or .expand().
+
+📌 Example Use Case
+
+Automate file download process:
+
+Open a Save As dialog.
+
+Select file type from ComboBox.
+
+Click Save.
+
+---
+
+## 💻 Code Files for `10-july`
+
+---
+
+### ✅ `error_handling_debug.py`
+```python
+from pywinauto.application import Application
+from pywinauto.findwindows import ElementNotFoundError
+
+try:
+    app = Application().connect(title_re=".*Notepad")
+    notepad = app.window(title_re=".*Notepad")
+    notepad.print_control_identifiers()
+except ElementNotFoundError:
+    print("Notepad window not found!")
+except Exception as e:
+    print("Unhandled error:", e)

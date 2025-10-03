@@ -1,0 +1,62 @@
+📌 Opening and Interacting with Windows Applications
+
+- You can open applications like Notepad, Calculator, etc. using:
+```python
+Application().start("notepad.exe")
+or for Calculator:
+
+Application().start("calc.exe")
+📌 Attaching to Running Applications
+
+If the app is already running, you can connect to it:
+
+Application().connect(title="Untitled - Notepad")
+📌 Basic Window Interaction
+
+Accessing the main window:
+
+app.window(title="Untitled - Notepad")
+Identify child elements inside the window:
+
+window.print_control_identifiers()
+Find elements by:
+
+title (e.g., "File")
+
+control_type (e.g., "Button", "Edit")
+
+control_id (numerical ID of control)
+
+📌 Window Operations
+
+Use the following functions:
+
+.maximize() — Maximize the window
+
+.minimize() — Minimize the window
+
+.restore() — Restore to original size
+
+.close() — Close the app
+
+Example:
+
+notepad.maximize()
+notepad.minimize()
+notepad.restore()
+notepad.close()
+
+---
+
+## 💻 Source Code for `08-july`
+
+### ✅ `launch_and_maximize.py`
+```python
+from pywinauto.application import Application
+
+# Launch Notepad and maximize it
+app = Application().start("notepad.exe")
+notepad = app.window(title_re=".*Notepad")
+notepad.wait('ready')
+notepad.maximize()
+notepad.type_keys("Window maximized!", with_spaces=True)

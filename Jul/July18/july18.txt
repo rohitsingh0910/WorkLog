@@ -1,0 +1,55 @@
+📌 Cron Jobs (crontab)
+
+- Cron is used for scheduling tasks in Linux.
+- `crontab -e` ➜ edit cron jobs.
+- `crontab -l` ➜ list current cron jobs.
+- `crontab -r` ➜ remove all cron jobs.
+
+Cron Format:
+command
+| | | | |
+| | | | └─ Day of week (0–6)
+| | | └─── Month (1–12)
+| | └───── Day of month (1–31)
+| └─────── Hour (0–23)
+└────────── Minute (0–59)
+
+makefile
+Example:
+0 5 * * * /home/user/backup.sh # Run daily at 5 AM
+*/10 * * * * echo "Hello" >> /tmp/cron.log # Every 10 mins
+
+
+---
+
+📌 grep (Global Regular Expression Print)
+
+- Used to search patterns in files.
+- Example:
+  grep "error" log.txt     ➜ find 'error' in log.txt
+  grep -i "error" log.txt  ➜ case-insensitive search
+  grep -n "error" log.txt  ➜ show line numbers
+
+---
+
+📌 awk
+
+- Used for pattern scanning and text processing.
+- Syntax:
+  awk '{print $1}' file.txt   ➜ print first column
+  awk '/error/ {print $2}' file.txt   ➜ print 2nd column for lines containing 'error'
+
+- awk fields:
+  $0 ➜ entire line
+  $1 ➜ first field
+  $2 ➜ second field, etc.
+
+---
+
+📌 sed (Stream Editor)
+
+- Used for find/replace in files.
+- Example:
+  sed 's/old/new/' file.txt        ➜ replace first occurrence of 'old' in each line
+  sed 's/old/new/g' file.txt       ➜ replace all occurrences
+  sed -n '2p' file.txt             ➜ print 2nd line

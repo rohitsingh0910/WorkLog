@@ -1,0 +1,45 @@
+📌 What is a Shell?
+- A shell is a command-line interpreter that lets you interact with the OS.
+- It takes commands, executes them, and returns output.
+- Popular shells: Bash (default on most Linux), Zsh, Ksh, Fish, etc.
+
+📌 Bash vs Other Shells:
+- Bash (Bourne Again SHell) is the most widely used.
+- Zsh: More interactive, with better autocomplete and plugins.
+- Fish: More user-friendly with built-in help and syntax highlighting.
+
+📌 How to Run Shell Scripts (.sh files):
+1. Create a `.sh` file with commands.
+2. Make it executable:
+   ```bash
+   chmod +x script.sh
+Run the script:
+
+./script.sh
+
+📌 Shebang (#!/bin/bash):
+
+The first line in a shell script.Tells the OS which interpreter to use.
+
+Example:
+
+#!/bin/bash
+echo "Hello Shell!"
+📌 Basic Commands:
+
+echo: prints to the terminal → echo "Hello"
+
+ls: list directory contents → ls -l
+
+pwd: print working directory → pwd
+
+cd: change directory → cd foldername
+
+---
+
+## 💻 Source Code for `01-july`
+
+`hello_shell.sh`
+#!/bin/bash
+# Simple Hello Script
+echo "Welcome to Shell Scripting!"

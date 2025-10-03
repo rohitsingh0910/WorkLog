@@ -1,0 +1,10 @@
+^      = Ctrl
+%      = Alt
++      = Shift
+{TAB}  = Tab key
+{ENTER} = Enter key
+{ESC}  = Escape
+{DEL}  = Delete
+{BACKSPACE} = Backspace
+{LEFT}, {RIGHT}, {UP}, {DOWN} = Arrow keys
+{CTRL down}, {CTRL up} = Hold/release keys

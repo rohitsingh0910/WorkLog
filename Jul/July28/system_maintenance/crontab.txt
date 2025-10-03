@@ -1,0 +1,3 @@
+# Run system maintenance daily at 2 AM
+0 2 * * * /home/mirafra/Downloads/WorkLog/July26/system_maintenance/system_maintenance.sh
+

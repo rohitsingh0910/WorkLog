@@ -1,0 +1,55 @@
+📌 Interacting with Controls
+
+✔️ Controls = GUI elements like buttons, text fields, checkboxes.
+✔️ Use `.child_window()` to get specific control by title, control_type, or automation_id.
+
+🔹 Common Methods:
+- `.click()` – Clicks a button or checkbox.
+- `.type_keys("text")` – Types text into a control.
+- `.set_text("text")` – Directly sets the content (for Edit controls).
+
+📌 Example: Automate Notepad to write and save
+1. Start Notepad
+2. Type "Hello Pywinauto"
+3. Save file using File menu
+
+📌 Window Focus
+
+- Use `.set_focus()` to bring a window to the front before interaction:
+```python
+window.set_focus()
+
+📌 Handling Multiple Windows
+
+Use .connect() on each window if multiple apps are open.
+
+For example:
+app1 = Application().connect(title_re=".*Notepad")
+app2 = Application().connect(title_re=".*Calculator")
+
+Then use .window() to access and control them separately.
+
+
+---
+
+## 💻 Source Code for `09-july`
+
+### ✅ `write_and_save_notepad.py`
+```python
+from pywinauto.application import Application
+
+# Launch Notepad and write text
+app = Application().start("notepad.exe")
+notepad = app.window(title_re=".*Notepad")
+notepad.wait('ready')
+notepad.set_focus()
+notepad.type_keys("Hello Pywinauto", with_spaces=True)
+
+# Save the file
+notepad.menu_select("File->Save As")
+save_dialog = app.window(title_re=".*Save As")
+save_dialog.wait('ready')
+
+# Type file name and save
+save_dialog.child_window(auto_id="1001", control_type="Edit").set_text("pywinauto_note.txt")
+save_dialog.child_window(title="Save", control_type="Button").click()
