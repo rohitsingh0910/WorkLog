@@ -1,106 +1,42 @@
-Unit 1: Digital Logic Basics
+Cisco pyATS Framework:
+- pyATS (Python Automated Test System) is Cisco’s testing framework for network automation.
+- It enables automated testing of network devices through CLI or APIs.
+- Testbeds are defined in YAML, specifying devices, credentials, and connections.
+- Genie is a pyATS library used for parsing command outputs into structured data (JSON/dict).
+- Tests are written in AEtest format using Python classes and methods.
+- pyATS supports simulation, validation, regression, and continuous testing.
+- It integrates easily with CI/CD pipelines via CLI or Jenkins.
+- Example use cases: interface verification, BGP/OSPF neighbor checks, device health.
 
-1. What is Digital Logic?
+vTest Overview:
+- vTest is an execution environment built around pyATS for network testing.
+- It adds features like UI dashboards, logging, result management, and test orchestration.
+- vTest simplifies managing large-scale test environments.
+- It provides integration hooks for enterprise automation workflows and reporting.
+- Often used in conjunction with pyATS for end-to-end network validation.
 
-In computers/electronics, everything is represented using 0s and 1s.
+OSI Model (7 Layers):
+1. Physical – Transmits raw bits (cables, connectors, voltages).
+2. Data Link – Error-free transfer between two directly connected nodes (MAC, switches).
+3. Network – Handles routing and IP addressing (routers, IP, ICMP).
+4. Transport – Ensures reliable delivery (TCP, UDP, flow control).
+5. Session – Manages sessions and connections (establishment/termination).
+6. Presentation – Data translation, encryption, compression (MIME, SSL).
+7. Application – Interface to user applications (HTTP, FTP, DNS, SMTP).
 
-0 = OFF (low voltage, ~0V)
+TCP/IP Model (4 Layers):
+1. Link – Combines OSI’s Physical and Data Link layers (Ethernet, ARP).
+2. Internet – Maps to OSI’s Network layer (IP, ICMP).
+3. Transport – Same as OSI’s Transport layer (TCP, UDP).
+4. Application – Merges OSI’s top 3 layers (HTTP, FTP, DNS, etc.).
 
-1 = ON (high voltage, e.g., ~5V or ~3.3V)
+Python Concepts for Practice:
+- List/Array manipulation: slicing, reversing, merging, filtering.
+- Dictionary/hashmap usage for counting, grouping, and mapping.
+- String methods: split, join, replace, regex for parsing text.
+- Sorting algorithms and custom key-based sorting (lambda).
+- Two-pointer techniques for array problems (e.g. Two Sum, Palindromes).
+- Recursion and backtracking (DFS, N-Queens).
+- Time & space complexity analysis (Big O notation).
 
-👉 Digital logic is about building systems that take 0/1 inputs and produce 0/1 outputs using logic rules.
-
-(Analogy: Like traffic lights – Red = stop (0), Green = go (1). The controller decides the output based on rules.)
-
-2. Logic Gates (the building blocks of circuits)
-
-Think of gates as functions in Python, but they always take binary inputs and give binary outputs.
-
-Basic Gates
-
-AND Gate ( · )
-
-Output = 1 only if both inputs are 1.
-
-Truth Table:
-
-A  B | Output
-0  0 |   0
-0  1 |   0
-1  0 |   0
-1  1 |   1
-
-
-(Analogy: "I will go for a trip if AND only if I have money AND time.")
-
-OR Gate ( + )
-
-Output = 1 if any one input is 1.
-
-Truth Table:
-
-A  B | Output
-0  0 |   0
-0  1 |   1
-1  0 |   1
-1  1 |   1
-
-
-(Analogy: "I will order pizza if I am hungry OR bored.")
-
-NOT Gate ( ¬ )
-
-Inverts the input.
-
-Truth Table:
-
-A | Output
-0 |   1
-1 |   0
-
-
-(Analogy: A light switch – if input = OFF, output = ON.)
-
-Derived Gates
-
-NAND (Not AND)
-
-Output = opposite of AND.
-(Most chips are built using NAND because it’s cheaper and universal.)
-
-NOR (Not OR)
-
-Output = opposite of OR.
-
-XOR (Exclusive OR)
-
-Output = 1 if inputs are different.
-
-Truth Table:
-
-A  B | Output
-0  0 |   0
-0  1 |   1
-1  0 |   1
-1  1 |   0
-
-
-(Analogy: "Exactly one of us pays the bill – not both.")
-
-3. Combinational vs Sequential Logic
-
-Combinational Logic: Output depends only on current inputs.
-(e.g., Calculator – if you input 2+3, you immediately get 5.)
-
-Sequential Logic: Output depends on current input and past history (memory).
-(e.g., Lift system – current floor depends on past button presses.)
-
-4. Flip-Flops (Intro only)
-
-Flip-flop = memory cell that stores 1 bit.
-
-Controlled by clock signal.
-
-Example: D Flip-Flop stores the input D whenever clock pulses.
-
-(Analogy: Taking a photo at every clock tick – you store the value of input at that moment.)
+Note: Cisco's pyATS and vTest together enable scalable, automated network validation—especially useful in large enterprise or data center environments.

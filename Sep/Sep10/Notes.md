@@ -1,106 +1,44 @@
-Unit 1: Digital Logic Basics
+📌 1. Memory Optimization Flow (Pre- and Post-Placement Stages)
+✅ Pre-Placement Stage:
 
-1. What is Digital Logic?
+Analyzed memory footprint of design blocks.
 
-In computers/electronics, everything is represented using 0s and 1s.
+Identified high-utilization areas for early optimization.
 
-0 = OFF (low voltage, ~0V)
+Reviewed synthesis reports to understand logic replication and resource mapping.
 
-1 = ON (high voltage, e.g., ~5V or ~3.3V)
+Revisited floorplanning guidelines to avoid memory fragmentation.
 
-👉 Digital logic is about building systems that take 0/1 inputs and produce 0/1 outputs using logic rules.
+✅ Post-Placement Stage:
 
-(Analogy: Like traffic lights – Red = stop (0), Green = go (1). The controller decides the output based on rules.)
+Checked placement utilization metrics and congestion maps.
 
-2. Logic Gates (the building blocks of circuits)
+Verified memory macro placement constraints were met.
 
-Think of gates as functions in Python, but they always take binary inputs and give binary outputs.
+Ensured no overlap of critical paths through memory blocks.
 
-Basic Gates
+Reviewed timing and power impact after placement.
 
-AND Gate ( · )
+📌 2. Verilog Practice on EDA Playground
 
-Output = 1 only if both inputs are 1.
+Simulated basic combinational and sequential circuits.
 
-Truth Table:
+Reviewed Verilog constructs (always, assign, initial, sensitivity lists).
 
-A  B | Output
-0  0 |   0
-0  1 |   0
-1  0 |   0
-1  1 |   1
+Ran testbenches to verify behavior of flip-flops, mux, and encoders.
 
+Compared simulation waveforms with expected outputs for verification.
 
-(Analogy: "I will go for a trip if AND only if I have money AND time.")
+📌 3. Python Practice (LeetCode, HackerRank)
 
-OR Gate ( + )
+Practiced algorithm questions focused on:
 
-Output = 1 if any one input is 1.
+String manipulation
 
-Truth Table:
+List operations
 
-A  B | Output
-0  0 |   0
-0  1 |   1
-1  0 |   1
-1  1 |   1
+Hash maps and sets
 
+Solved edge-case problems to reinforce concepts
 
-(Analogy: "I will order pizza if I am hungry OR bored.")
-
-NOT Gate ( ¬ )
-
-Inverts the input.
-
-Truth Table:
-
-A | Output
-0 |   1
-1 |   0
-
-
-(Analogy: A light switch – if input = OFF, output = ON.)
-
-Derived Gates
-
-NAND (Not AND)
-
-Output = opposite of AND.
-(Most chips are built using NAND because it’s cheaper and universal.)
-
-NOR (Not OR)
-
-Output = opposite of OR.
-
-XOR (Exclusive OR)
-
-Output = 1 if inputs are different.
-
-Truth Table:
-
-A  B | Output
-0  0 |   0
-0  1 |   1
-1  0 |   1
-1  1 |   0
-
-
-(Analogy: "Exactly one of us pays the bill – not both.")
-
-3. Combinational vs Sequential Logic
-
-Combinational Logic: Output depends only on current inputs.
-(e.g., Calculator – if you input 2+3, you immediately get 5.)
-
-Sequential Logic: Output depends on current input and past history (memory).
-(e.g., Lift system – current floor depends on past button presses.)
-
-4. Flip-Flops (Intro only)
-
-Flip-flop = memory cell that stores 1 bit.
-
-Controlled by clock signal.
-
-Example: D Flip-Flop stores the input D whenever clock pulses.
-
-(Analogy: Taking a photo at every clock tick – you store the value of input at that moment.)
+Reviewed time/space complexity of different solutions

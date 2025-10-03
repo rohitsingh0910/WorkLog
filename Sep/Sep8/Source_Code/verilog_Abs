@@ -1,0 +1,25 @@
+module gate_level(a, b, y);
+    input a, b;
+    output y;
+
+    and(y, a, b);
+endmodule
+
+module dataflow_level(a, b, y);
+    input a, b;
+    output y;
+
+    assign y = a & b;
+endmodule
+
+module behavioral_level(clk, rst, a, y);
+    input clk, rst, a;
+    output reg y;
+
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            y <= 0;
+        else
+            y <= a;
+    end
+endmodule
