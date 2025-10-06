@@ -33,7 +33,6 @@ def minion_game(string):
     # else:
     #     print(f"Kevin {kevin}")
 
-
 if __name__ == '__main__':
     s = input()
     minion_game(s)

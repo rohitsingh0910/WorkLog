@@ -8,7 +8,6 @@ def print_formatted(number):
         binary = bin(i)[2:].rjust(width)
         print(f"{dec} {octal} {hexa} {binary}")
 
-
 if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
